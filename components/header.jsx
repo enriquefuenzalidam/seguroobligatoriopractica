@@ -1,45 +1,47 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import netlifyLogo from 'public/netlify-logo.svg';
-import githubLogo from 'public/images/github-mark-white.svg';
+import seguroObligatorio from 'public/images/seguroobligatorio.png';
+import segurosGenerales from 'public/images/segurosgenerales.png';
+import hamburgerMenu from 'public/images/bars.svg';
 
 const navItems = [
-    { linkText: 'Home', href: '/' },
-    { linkText: 'Revalidation', href: '/revalidation' },
-    { linkText: 'Image CDN', href: '/image-cdn' },
-    { linkText: 'Edge Function', href: '/edge' },
-    { linkText: 'Blobs', href: '/blobs' },
-    { linkText: 'Classics', href: '/classics' }
+    { linkText: 'Inicio', href: '/' },
+    { linkText: 'Quiénes somos', href: '/quienesomos' },
+    { linkText: 'Socios', href: '/socios' },
+    { linkText: 'Campañas', href: '/campañas' },
+    { linkText: 'Precios', href: '/precios' },
+    { linkText: 'Contacto', href: '/contacto' }
 ];
 
 export function Header() {
     return (
-        <nav className="flex flex-wrap items-center gap-4 pt-6 pb-12 sm:pt-12 md:pb-24">
-            <Link href="/">
-                <Image src={netlifyLogo} alt="Netlify logo" />
-            </Link>
+        <nav className="bg-white fixed left-0 top-0 w-full z-50  shadow-md shadow-neutral-500 py-2 px-4 sm:px-4 md:px-4 lg:px-0">
+            <div class=" max-w-screen-lg mx-auto flex flex-row items-center justify-center">
+                <div className=" w-full h-full lg:hidden flex flex-row items-center justify-left gap-2">
+                    <Image class="w-4 inline-block" src={hamburgerMenu} alt="" />
+                    <span class="text-black text-lg uppercase font-bold inline-block">Menú</span>
+                </div>
+                <div class=" inline-block lg:min-w-44 lg:max-w-44 h-auto md:min-w-28 md:max-w-28 sm:min-w-28 sm:max-w-28 min-w-28 max-w-28 ">
+                    <Link class=" inline-block" href="/">
+                        <Image src={seguroObligatorio} alt="Seguro Obligatorio" />
+                    </Link>
+                </div>
             {!!navItems?.length && (
-                <ul className="flex flex-wrap gap-x-4 gap-y-1">
+                <ul className=" w-full h-full hidden sm:hidden md:hidden lg:inline-flex flex-row items-center justify-center gap-4 text-black">
                     {navItems.map((item, index) => (
-                        <li key={index}>
-                            <Link
-                                href={item.href}
-                                className="inline-block px-1.5 py-1 transition hover:opacity-80 sm:px-3 sm:py-2"
-                            >
+                    <li key={index} className=" inline-block ">
+                        <Link href={item.href} className=" inline-block no-underline uppercase font-bold text-md" >
                                 {item.linkText}
-                            </Link>
-                        </li>
+                        </Link>
+                    </li>
                     ))}
                 </ul>
             )}
-            <div className="flex-grow justify-end hidden lg:flex lg:mr-1">
-                <Link
-                    href="https://github.com/netlify-templates/next-platform-starter"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <Image src={githubLogo} alt="GitHub logo" className="w-7" />
-                </Link>
+                <div class=" inline-block lg:min-w-44 lg:max-w-44 h-auto md:min-w-28 md:max-w-28 sm:min-w-28 sm:max-w-28 min-w-28 max-w-28 ">
+                    <Link class=" inline-block" href="/" target="_blank" >
+                        <Image src={segurosGenerales} alt="Seguros Generales logo" />
+                    </Link>
+                </div>
             </div>
         </nav>
     );
