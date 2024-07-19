@@ -1,13 +1,49 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import seguroObligatorioBlanco from 'public/images/seguroobligatorio_blanco.png';
+import instagramLogo from 'public/images/instagram.svg';
+import facebookLogo from 'public/images/facebook.svg';
+import phoneIcon from 'public/images/phone.svg';
+import locationDotIcon from 'public/images/location-dot.svg';
+import envelopeIcon from 'public/images/envelope.svg';
 
 export function Footer() {
     return (
-        <footer className="pt-16 pb-12 sm:pt-24 sm:pb-16">
-            <p className="text-sm">
-                <Link href="https://docs.netlify.com/frameworks/next-js/overview/" className="underline transition decoration-dashed text-primary underline-offset-8 hover:opacity-80">
-                    Next.js on Netlify
-                </Link>
-            </p>
+        <footer className="bg-[#1e1e1e] text-white w-full  ">
+            <section className=" max-w-screen-lg mx-auto">
+                <div className="w-full sm:w-full md:w-1/3 lg:w-1/3 my-6 text-center inline-block align-top">
+                    <h3 className="my-3">
+                        <Image className="inline-block w-44 " src={seguroObligatorioBlanco} alt="Seguro Obligatorio Blanco" />
+                    </h3>
+                    <p className="my-3 text-md">© 2022 Seguro Obligatorio<br/>Creado por Seguro Obligatorio</p>
+                    <adress className="block mt-6 mb-3 not-italic">
+                        <Image className="inline-block w-6 mx-3" src={facebookLogo} alt="Facebook" />
+                        <Image className="inline-block w-6 mx-3" src={instagramLogo} alt="Instagram" />
+                    </adress>
+                </div>
+                <div className="w-full sm:w-full md:w-1/3 lg:w-1/3 my-6 text-center inline-block align-top">
+                    <h3 className="my-3 uppercase text-lg font-bold">Atención público</h3>
+                    <p className="my-3">
+                        Lunes a Viernes<br/>
+                        8:30 hrs. a 14:00 hrs.<br/>
+                        15:00 hrs. a 18:00 hrs.
+                    </p>
+                    <p className="mt-6 mb-3">
+                        <Link className="inline-block px-4 py-2 rounded-full border-solid border-2 border-white border-opacity-50 uppercase text-sm font-bold no-underline" href="">Únete a nuestro equipo</Link>
+                    </p>
+                </div>
+                <div className="w-full sm:w-full md:w-1/3 lg:w-1/3 my-6 text-center inline-block align-top">
+                    <h3 className="my-3 uppercase text-lg font-bold">Datos de contacto</h3>
+                    <address className="block my-3 text-md not-italic leading-loose ">
+                        <Image className="inline-block w-4 mr-3" src={envelopeIcon} alt="Correo electrónico" /> contacto.obligatorio@gmail.com<br/>
+                        <Image className="inline-block w-4 mr-3" src={phoneIcon} alt="Telefono" /> (32) 2233491<br/>
+                        <Image className="inline-block w-4 mr-3" src={locationDotIcon} alt="Dirección" /> Av. Colón 3192. Valparaíso
+                    </address>
+                </div>
+            </section>
+            <section className=" mx-auto border-t-2 border-solid border-white border-opacity-10">
+                <p className=" text-center w-full p-4 text-white text-opacity-70">© 2024 Seguros online. All rights reserved</p>
+            </section>
         </footer>
     );
 };
