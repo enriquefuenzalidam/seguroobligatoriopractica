@@ -1,67 +1,30 @@
+
 import Link from 'next/link';
-import { Card } from 'components/card';
-import { RandomQuote } from 'components/random-quote';
-import { Markdown } from 'components/markdown';
-import { ContextAlert } from 'components/context-alert';
-import { getNetlifyContext } from 'utils';
+import Image from 'next/image';
+import DynamicBackground from 'components/DynamicBackground';
 
-const cards = [
-    //{ text: 'Hello', linkText: 'someLink', href: '/' }
-];
 
-const contextExplainer = `
-The card below is rendered on the server based on the value of \`process.env.CONTEXT\` 
-([docs](https://docs.netlify.com/configure-builds/environment-variables/#build-metadata)):
-`;
 
-const preDynamicContentExplainer = `
-The card content below is fetched by the client-side from \`/quotes/random\` (see file \`app/quotes/random/route.js\`) with a different quote shown on each page load:
-`;
 
-const postDynamicContentExplainer = `
-On Netlify, Next.js Route Handlers are automatically deployed as [Serverless Functions](https://docs.netlify.com/functions/overview/).
-Alternatively, you can add Serverless Functions to any site regardless of framework, with acccess to the [full context data](https://docs.netlify.com/functions/api/).
-
-And as always with dynamic content, beware of layout shifts & flicker! (here, we aren't...)
-`;
-
-const ctx = getNetlifyContext();
 
 export default function Page() {
     return (
-        <main className="flex flex-col gap-8 sm:gap-16">
-            <section className="flex flex-col items-start gap-3 sm:gap-4">
-                <ContextAlert />
-                <h1 className="mb-0">Netlify Platform Starter - Next.js</h1>
-                <p className="text-lg">Get started with Next.js and Netlify in seconds.</p>
-                <Link
-                    href="https://docs.netlify.com/frameworks/next-js/overview/"
-                    className="btn btn-lg btn-primary sm:btn-wide"
-                >
-                    Read the Docs
-                </Link>
-            </section>
-            {!!ctx && (
-                <section className="flex flex-col gap-4">
-                    <Markdown content={contextExplainer} />
-                    <RuntimeContextCard />
+        <main className="">
+            <DynamicBackground>
+                <section className=" max-w-screen-lg w-full mx-auto">
+                    <h2 className=" mx-6 sm:mx-6 md:mx-6 lg:mx-0 text-white text-opacity-100 text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase font-Poppins">Seguro Obligatorio</h2>
+                    <p className=" mx-6 sm:mx-6 md:mx-6 lg:mx-0 mt-2 text-white text-md text-lg sm:text-lg md:text-xl lg:text-2xl">Experiencia en el mercado de seguros</p>
+                    <p className=" mx-6 sm:mx-6 md:mx-6 lg:mx-0 mt-8"><Link className="inline-block text-white text-sm uppercase border-solid border-2 rounded-full border-opacity-60 py-1 px-10" href="/precios">Compra aquí</Link></p>
                 </section>
-            )}
-            <section className="flex flex-col gap-4">
-                <Markdown content={preDynamicContentExplainer} />
-                <RandomQuote />
-                <Markdown content={postDynamicContentExplainer} />
+            </DynamicBackground>
+            <section>
+                <div className=" max-w-screen-lg w-full mx-auto">
+                    <p className=" text-center text-lg sm:text-lg md:text-xl lg:text-2xl py-32 px-6 sm:px-6 md:px-8 lg:px-8 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed ">
+                        <span className=" uppercase font-bold font-Lato">Seguro Obligatorio</span> es una empresa consolidada con más de 25 años en el mercado, que ofrece seguros obligatorios y seguros generales a particulares y empresas de todo el país. Mantenemos alianzas con las mejores compañías de seguros, lo que nos permite ofrecer el mejor precio a cada uno de nuestros clientes. Nuestros colaboradores brindan la asesoría para que las personas obtengan el Seguro más adecuado a sus necesidades.
+                    </p>
+                </div>
             </section>
-            {/* !!cards?.length && <CardsGrid cards={cards} /> */}
         </main>
     );
 }
 
-function RuntimeContextCard() {
-    const title = `Netlify Context: running in ${ctx} mode.`;
-    if (ctx === 'dev') {
-        return <Card title={title} text="Next.js will rebuild any page you navigate to, including static pages." />;
-    } else {
-        return <Card title={title} text="This page was statically-generated at build time." />;
-    }
-}

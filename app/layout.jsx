@@ -1,3 +1,4 @@
+
 import '../styles/globals.css';
 import { Footer } from '../components/footer';
 import { Header } from '../components/header';
@@ -15,7 +16,7 @@ export default function RootLayout({ children }) {
             <head>
                 <link rel="icon" href="/favicon.svg" sizes="any" />
             </head>
-            <body className="antialiased text-black bg-white">
+            <body className="antialiased text-black bg-white font-Lato ">
                         <Header />
                         {children}
                         <Footer />

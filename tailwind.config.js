@@ -12,7 +12,10 @@ module.exports = {
                 neutral: colors.neutral
             },
             fontFamily: {
-                sans: ['Lato','Inter', ...defaultTheme.fontFamily.sans]
+                sans: [ ...defaultTheme.fontFamily.sans],
+                Lato: ['Lato', ...defaultTheme.fontFamily.sans],
+                Inter: ['Inter', ...defaultTheme.fontFamily.sans],
+                Poppins: ['Poppins', ...defaultTheme.fontFamily.sans]
             }
         }
     },
