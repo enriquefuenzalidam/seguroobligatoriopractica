@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+
 import seguroObligatorioBlanco from 'public/images/seguroobligatorio_blanco.png';
 import instagramLogo from 'public/images/instagram.svg';
 import facebookLogo from 'public/images/facebook.svg';
@@ -16,10 +17,10 @@ export function Footer() {
                         <Image className="inline-block w-44 " src={seguroObligatorioBlanco} alt="Seguro Obligatorio Blanco" />
                     </h3>
                     <p className="my-3 text-md">© 2022 Seguro Obligatorio<br/>Creado por Seguro Obligatorio</p>
-                    <adress className="block mt-6 mb-3 not-italic">
-                        <Image className="inline-block w-6 mx-3 pl-6" src={facebookLogo} alt="Facebook" />
-                        <Image className="inline-block w-6 mx-3 pl-6" src={instagramLogo} alt="Instagram" />
-                    </adress>
+                    <p className=" mt-6 mb-3 ">
+                        <Image className="inline-block w-6 h-6 mx-3 " src={facebookLogo} alt="" />
+                        <Image className="inline-block w-6 h-6 mx-3 " src={instagramLogo} alt="" />
+                    </p>
                 </div>
                 <div className="w-full sm:w-full md:w-1/3 lg:w-1/3 my-6 text-center inline-block align-top">
                     <h3 className="my-3 uppercase text-lg font-bold">Atención público</h3>
