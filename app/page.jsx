@@ -12,9 +12,9 @@ export default function Page() {
         <main className="">
             <DynamicBackground>
                 <section className=" max-w-screen-lg w-full mx-auto">
-                    <h2 className=" mx-6 sm:mx-6 md:mx-6 lg:mx-0 text-white text-opacity-100 text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase font-Poppins">Seguro Obligatorio</h2>
-                    <p className=" mx-6 sm:mx-6 md:mx-6 lg:mx-0 mt-2 text-white text-md text-lg sm:text-lg md:text-xl lg:text-2xl">Experiencia en el mercado de seguros</p>
-                    <p className=" mx-6 sm:mx-6 md:mx-6 lg:mx-0 mt-8"><Link className="inline-block text-white text-sm uppercase border-solid border-2 rounded-full border-opacity-60 py-1 px-10" href="/precios">Compra aquí</Link></p>
+                    <h2 className=" mx-6 sm:mx-6 md:mx-6 lg:mx-3 text-white text-opacity-100 text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase font-Poppins">Seguro Obligatorio</h2>
+                    <p className=" mx-6 sm:mx-6 md:mx-6 lg:mx-3 mt-2 text-white text-md text-lg sm:text-lg md:text-xl lg:text-2xl">Experiencia en el mercado de seguros</p>
+                    <p className=" mx-6 sm:mx-6 md:mx-6 lg:mx-3 mt-8"><Link className="inline-block text-white text-sm uppercase border-solid border-2 rounded-full border-opacity-60 py-1 px-10" href="/precios">Compra aquí</Link></p>
                 </section>
             </DynamicBackground>
             <section>
