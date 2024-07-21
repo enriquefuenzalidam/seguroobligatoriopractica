@@ -30,7 +30,7 @@ export function Footer() {
                         15:00 hrs. a 18:00 hrs.
                     </p>
                     <p className="mt-6 mb-3">
-                        <Link className="inline-block px-4 py-2 rounded-full border-solid border-2 border-white border-opacity-50 uppercase text-sm font-bold no-underline" href="/">Únete a nuestro equipo</Link>
+                        <Link className=" inline-block px-4 py-2 rounded-full border-solid border-2 border-white border-opacity-50 uppercase text-sm font-bold no-underline" href="/">Únete a nuestro equipo</Link>
                     </p>
                 </div>
                 <div className="w-full sm:w-full md:w-1/3 lg:w-1/3 my-6 text-center inline-block align-top">

@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 
 import Image from 'next/image';
 import Link from 'next/link';
+
 import seguroObligatorio from 'public/images/seguroobligatorio.png';
 import segurosGenerales from 'public/images/segurosgenerales.png';
 import hamburgerMenu from 'public/images/bars.svg';
@@ -54,7 +55,7 @@ export function Header() {
                 </ul>
             )}
                 <p className={` lg:min-w-44 lg:max-w-44 h-auto md:min-w-28 md:max-w-28 sm:min-w-28 sm:max-w-28 min-w-28 max-w-28 ${isScrolled ? 'hidden' : 'inline-block'}`}>
-                    <Link className=" inline-block" href="/" target="_blank" >
+                    <Link className="inline-block" href="/" target="_blank" >
                         <Image src={segurosGenerales} alt="Seguros Generales logo" />
                     </Link>
                 </p>

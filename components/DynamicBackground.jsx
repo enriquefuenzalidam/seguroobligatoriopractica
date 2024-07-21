@@ -27,14 +27,6 @@ const coverBgImages = [
   coverBgImageDiez,
 ];
 
-const fadeIn = keyframes`
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-`;
 
 const zoomIn = keyframes`
   from {
@@ -71,7 +63,7 @@ const Background = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  animation: ${fadeIn} 987ms ease-in-out, ${zoomIn} 28657ms forwards; 
+  animation: ${zoomIn} 28657ms forwards; 
 `;
 
 
