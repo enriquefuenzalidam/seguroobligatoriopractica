@@ -41,7 +41,7 @@ const zoomIn = keyframes`
     transform: scale(1);
   }
   to {
-    transform: scale(2);
+    transform: scale(1.6);
   }
 `;
 
@@ -71,7 +71,7 @@ const Background = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  animation: ${fadeIn} 1s ease-in-out, ${zoomIn} 30s forwards; 
+  animation: ${fadeIn} 987ms ease-in-out, ${zoomIn} 28657ms forwards; 
 `;
 
 
@@ -89,13 +89,21 @@ const Content = styled.div`
   height: auto;
 `;
 
+const preloadImages = (imageArray) => {
+  imageArray.forEach((image) => {
+    const img = new Image();
+    img.src = image.src;
+  });
+};
+
 const DynamicBackground = ({ children }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
+    preloadImages(coverBgImages);
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % coverBgImages.length);
-    }, 5100); // Change image every 5 seconds
+    }, 4181); // Change image every 5 seconds
 
     return () => clearInterval(interval);
   }, []);
