@@ -125,7 +125,7 @@ export default function Page() {
                         </div>
                 </div>
             </section>
-            <section className="w-full shadow-inner shadow-black " style={{ backgroundImage: `url(${contactofondo.src})` }}>
+            <section className="w-full shadow-inner shadow-black bg-cover bg-left bg-repeat-x" style={{ backgroundImage: `url(${contactofondo.src})` }}>
                 <div className=" bg-black bg-opacity-30 w-full py-12 px-4">
                     <h3 className=" w-full mx-auto text-white mb-6 text-3xl uppercase font-bold  text-opacity-80 text-center">Contacto</h3>
                     <p className=" w-full mx-auto text-white max-w-3xl mb-6 text-opacity-80 text-center text-lg sm:text-lg md:text-xl lg:text-2xl px-6 leading-normal ">Necesitas cotizar tu Seguro Obligatorio. Déjanos tu mensaje y uno de nuestros representantes te contactará a la brevedad.</p>
