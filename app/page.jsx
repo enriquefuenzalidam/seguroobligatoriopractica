@@ -72,7 +72,7 @@ export default function Page() {
                     <div className="rounded-se-full rounded-es-full overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url(${bannerseguridad.src})` }}>
                         <p className=" bg-black bg-opacity-30 py-10 text-center uppercase font-Poppins font-bold text-white text-3xl">Seguridad</p>
                     </div>
-                    <div className="rounded-se-full rounded-es-full overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url(${bannerconfianza.src})` }}>
+                    <div className=" rounded-se-full rounded-es-full overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url(${bannerconfianza.src})` }}>
                         <p className=" bg-black bg-opacity-30 py-10 text-center uppercase font-Poppins font-bold text-white text-3xl">Confianza</p>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ export default function Page() {
                         </div>
                 </div>
             </section>
-            <section className=" bg-[url('/images/contactofondo.jpg')] w-full">
+            <section className=" bg-[url('/images/contactofondo.jpg')] w-full shadow-inner shadow-black ">
                 <div className=" bg-black bg-opacity-30 w-full py-12 px-4">
                     <h3 className=" w-full mx-auto text-white mb-6 text-3xl uppercase font-bold  text-opacity-80 text-center">Contacto</h3>
                     <p className=" w-full mx-auto text-white max-w-3xl mb-6 text-opacity-80 text-center text-lg sm:text-lg md:text-xl lg:text-2xl px-6 leading-normal ">Necesitas cotizar tu Seguro Obligatorio. Déjanos tu mensaje y uno de nuestros representantes te contactará a la brevedad.</p>
