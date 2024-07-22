@@ -74,12 +74,6 @@ const BackgroundContainer = styled.div`
   overflow: hidden;
 `;
 
-const Content = styled.div`
-  position: relative;
-  z-index: 10;
-  width: 100%;
-  height: auto;
-`;
 
 const preloadImages = (imageArray) => {
   imageArray.forEach((image) => {
@@ -111,9 +105,9 @@ const DynamicBackground = ({ children }) => {
             <Background style={{ backgroundImage: `url(${currentImage.src})` }} />
           </CSSTransition>
         </TransitionGroup>
-        <Content className=" bg-black bg-opacity-30 py-40 ">
+        <section className=" bg-black bg-opacity-30 relative z-10 w-full h-auto py-40 ">
           {children}
-        </Content>
+        </section>
       </BackgroundContainer>
     </>
   );
