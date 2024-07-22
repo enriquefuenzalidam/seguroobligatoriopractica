@@ -44,7 +44,7 @@ export default function Page() {
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-4 md:gap-6 lg:gap-8 my-12">
 
                     <div className="  mt-32 flex justify-center sm:justify-center md:justify-end lg:justify-end">
-                        <div className=" h-full text-center border-solid border-2 border-neutral-200 rounded-xl max-w-96 py-8 shadow-lg shadow-gray-500">
+                        <div className=" h-full text-center border-solid border-2 border-neutral-200 rounded-xl max-w-96 py-8 shadow-lg shadow-neutral-500">
                             <p className="-mt-32"><Image className="mx-auto" src={aliansamutualdesegurosdechile} alt=""/></p>
                             <h3 className=" font-bold text-lg sm:text-lg md:text-xl lg:text-xl px-6 uppercase font-Poppins  m-3 sm:m-3 md:m-6 lg:m-6">Mutual de Seguros</h3>
                             <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
@@ -53,7 +53,7 @@ export default function Page() {
                     </div>
 
                     <div className="  mt-32 flex justify-center sm:justify-center md:justify-start lg:justify-start">
-                        <div className=" h-full text-center border-solid border-2 border-neutral-200 rounded-xl max-w-96 py-8 shadow-lg shadow-gray-500">
+                        <div className=" h-full text-center border-solid border-2 border-neutral-200 rounded-xl max-w-96 py-8 shadow-lg shadow-neutral-500">
                             <p className="-mt-32"><Image className="mx-auto" src={aliansabciseguros} alt=""/></p>
                             <h3 className=" font-bold text-lg sm:text-lg md:text-xl lg:text-xl px-6 uppercase font-Poppins m-3 sm:m-3 md:m-6 lg:m-6">BCI Seguros</h3>
                             <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
@@ -83,7 +83,7 @@ export default function Page() {
                 <p className=" w-full mx-auto text-gray-600  max-w-3xl text-center text-lg sm:text-lg md:text-xl lg:text-2xl px-6 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed">Nuestra experiencia, nos ha permitido llegar a más clientes, es por eso que hemos seleccionado para usted precios acordes a sus necesidades mediante campañas a lo largo del año.</p>
                 <div className=" grid cols-1 mt-8 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-4 md:gap-6 lg:gap-8 mx-6 sm:mx-6 md:mx-3 lg:mx-0  ">
 
-                    <div className="flex shadow-lg shadow-gray-500 rounded-md border-2 border-solid border-black border-opacity-5  max-w-96 mx-auto">
+                    <div className="flex shadow-lg shadow-neutral-500 rounded-md border-2 border-solid border-black border-opacity-5  max-w-96 mx-auto">
                         <div className="uppercase text-center h-full w-full p-4 sm:p-4 md:p-3 lg:p-6">
                             <p><Image src={campagnasmarzo} alt="Campagna Mayo"/></p>
                             <h3 className="mt-6 mb-3 font-bold text-black text-xl font-Poppins">Marzo</h3>
@@ -97,7 +97,7 @@ export default function Page() {
                             </ul>
                         </div>
                     </div>
-                    <div className="flex shadow-lg shadow-gray-500 rounded-md border-2 border-solid border-black border-opacity-5  max-w-96 mx-auto">
+                    <div className="flex shadow-lg shadow-neutral-500 rounded-md border-2 border-solid border-black border-opacity-5  max-w-96 mx-auto">
                         <div className="uppercase text-center h-full w-full p-4 sm:p-4 md:p-3 lg:p-6">
                             <p><Image src={campagnasmayo} alt="Campagna Marzo"/></p>
                             <h3 className="mt-6 mb-3 font-bold text-black text-xl font-Poppins">Mayo</h3>
@@ -111,7 +111,7 @@ export default function Page() {
                             </ul>
                         </div>
                     </div>
-                    <div className="flex shadow-lg shadow-gray-500 rounded-md border-2 border-solid border-black border-opacity-5  max-w-96 mx-auto">
+                    <div className="flex shadow-lg shadow-neutral-500 rounded-md border-2 border-solid border-black border-opacity-5  max-w-96 mx-auto">
                         <div className="uppercase text-center h-full w-full p-4 sm:p-4 md:p-3 lg:p-6">
                             <p><Image src={campagnasseptiembre} alt="Campagna Septiembre"/></p>
                             <h3 className="mt-6 mb-3 font-bold text-black text-xl font-Poppins">Septiembre</h3>
@@ -129,7 +129,7 @@ export default function Page() {
                 <div className=" bg-black bg-opacity-30 w-full py-12 px-4">
                     <h3 className=" w-full mx-auto text-white mb-6 text-3xl uppercase font-bold  text-opacity-80 text-center">Contacto</h3>
                     <p className=" w-full mx-auto text-white max-w-3xl mb-6 text-opacity-80 text-center text-lg sm:text-lg md:text-xl lg:text-2xl px-6 leading-normal ">Necesitas cotizar tu Seguro Obligatorio. Déjanos tu mensaje y uno de nuestros representantes te contactará a la brevedad.</p>
-                    <form className="py-8 mx-auto w-full max-w-3xl bg-white rounded-xl p-4" method="post" >
+                    <form className="py-8 mx-auto w-full max-w-3xl bg-white rounded-xl p-4  shadow-lg shadow-black" method="post" >
                         <p className="">
                             <label className=" block text-base " for="nombre">Nombre</label>
                             <input className=" block w-full border-2 border-solid border-gray-300 p-2 bg-white" type="text" id="nombre" name="nombre" />
