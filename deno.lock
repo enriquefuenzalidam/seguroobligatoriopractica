@@ -60,7 +60,9 @@
     "packageJson": {
       "dependencies": [
         "npm:@netlify/blobs@^8.0.0",
+        "npm:@tailwindcss/aspect-ratio@^0.4.2",
         "npm:@types/styled-components@^5.1.34",
+        "npm:aos@^2.3.4",
         "npm:autoprefixer@^10.4.18",
         "npm:blobshape@^1.0.0",
         "npm:bright@^0.8.5",

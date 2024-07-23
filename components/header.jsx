@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -12,7 +13,7 @@ import hamburgerMenu from 'public/images/bars.svg';
 
 const navItems = [
     { linkText: 'Inicio', href: '/' },
-    { linkText: 'Quiénes somos', href: '/quienesomos' },
+    { linkText: 'Quiénes somos', href: '/quienessomos' },
     { linkText: 'Socios', href: '/socios' },
     { linkText: 'Campañas', href: '/campañas' },
     { linkText: 'Precios', href: '/precios' },
@@ -20,6 +21,7 @@ const navItems = [
 ];
 
 export function Header() {
+    const router = useRouter();
     const [isScrolled, setIsScrolled] = useState(false);
 
      useEffect(() => {
@@ -38,6 +40,7 @@ export function Header() {
           duration: 1200,
         });
       }, []);
+
     return (
         <nav className="bg-white fixed left-0 top-0 w-full z-50 shadow-custom-opacity py-2 pl-6 sm:pl-6 md:pl-6 lg:pl-0 pr-4 sm:pr-4 md:pr-4 lg:pr-0 transition-all ease-in-out duration-2000 ">
             <section data-aos="fade-down" className=" max-w-screen-lg mx-auto flex flex-row items-center justify-center">
@@ -54,7 +57,7 @@ export function Header() {
                 <ul data-aos="fade-left" className=" w-full h-full hidden sm:hidden md:hidden lg:inline-flex flex-row items-center justify-center gap-4 text-black  ">
                     {navItems.map((item, index) => (
                     <li key={index} className=" inline-block ">
-                        <Link href={item.href} className=" inline-block no-underline uppercase font-bold text-md" >
+                        <Link href={item.href} className={`inline-block no-underline uppercase font-bold text-md `} >
                                 {item.linkText}
                         </Link>
                     </li>
