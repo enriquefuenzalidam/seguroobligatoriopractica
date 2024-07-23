@@ -1,16 +1,19 @@
-
+"use client";
 import '../styles/globals.css';
 import { Footer } from '../components/footer';
 import { Header } from '../components/header';
 
-export const metadata = {
-    title: {
-        template: '%s | Seguro Obligatorio',
-        default: 'Seguro Obligatorio'
-    }
-};
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 export default function RootLayout({ children }) {
+    useEffect(() => {
+      AOS.init({
+        duration: 1200,
+      });
+    }, []);
     return (
         <html lang="en" data-theme="lofi">
             <head>

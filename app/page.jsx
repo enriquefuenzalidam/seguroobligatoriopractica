@@ -1,10 +1,7 @@
-"use client";
+
 import Link from 'next/link';
 import Image from 'next/image';
 
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 import styled from 'styled-components';
 import DynamicBackground from 'components/DynamicBackground';
@@ -22,11 +19,6 @@ import contactofondo from 'public/images/contactofondo.jpg';
 
 
 export default function Page() {
-    useEffect(() => {
-      AOS.init({
-        duration: 1200,
-      });
-    }, []);
     return (
         <main className="">
             <DynamicBackground>

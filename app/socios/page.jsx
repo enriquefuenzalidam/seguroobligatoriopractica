@@ -1,10 +1,7 @@
-"use client";
+
 import Link from 'next/link';
 import Image from 'next/image';
 
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 
 import socios from 'public/images/socios.jpg';
@@ -16,11 +13,6 @@ import ImageSlider from './imageSlider';
 
 
 export default function quienessomos() {
-    useEffect(() => {
-      AOS.init({
-        duration: 1200,
-      });
-    }, []);
     return (
         <main className="">
 
