@@ -105,7 +105,7 @@ const DynamicBackground = ({ children }) => {
             <Background style={{ backgroundImage: `url(${currentImage.src})` }} />
           </CSSTransition>
         </TransitionGroup>
-        <section className=" bg-black bg-opacity-30 relative z-10 w-full h-auto py-40 ">
+        <section className=" bg-black bg-opacity-30 relative z-10 w-full h-auto py-48 ">
           {children}
         </section>
       </BackgroundContainer>
