@@ -78,7 +78,7 @@ const ImageSlider = ({ children }) => {
   return (
     <>
       <GlobalStyle />
-      <ImageContainer data-aos="fade-left" className=" bg-white h-72 overflow-hidden float-none sm:float-none md:float-right lg:float-right w-3/5 sm:w-3/5 md:w-2/5 lg:w-2/5 -mb-10 sm:-mb-10 md:my-20 lg:my-20 mx-auto sm:mx-auto md:mx-6 lg:mx-6">
+      <ImageContainer data-aos-once="true" data-aos="fade-left" className=" bg-white h-72 overflow-hidden float-none sm:float-none md:float-right lg:float-right w-3/5 sm:w-3/5 md:w-2/5 lg:w-2/5 -mb-10 sm:-mb-10 md:my-20 lg:my-20 mx-auto sm:mx-auto md:mx-6 lg:mx-6">
         <TransitionGroup>
           <CSSTransition key={currentImageIndex} timeout={1000} classNames="fade">
             <ImageWrapper>

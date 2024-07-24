@@ -19,16 +19,16 @@ export default function quienessomos() {
         <main className="">
             <section className="mt-16 sm:mt-16 md:mt-16 lg:mt-24 bg-cover bg-center" style={{ backgroundImage: `url(${bannerexperiencia.src})` }}>
                 <div className=" bg-black bg-opacity-30 w-full mx-auto py-48">
-                    <h2 data-aos="fade-down" className=" max-w-screen-lg mx-auto text-center text-white text-opacity-100 text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase font-Poppins">Quienes Somos</h2>
-                    <hr data-aos="fade-up" className=" max-w-screen-lg block w-1/3 sm:w-1/3 md:w-1/4 lg:w-1/5 h-0.5 bg-[#E27905] mt-12 sm:mt-12 md:mt-14 lg:mt-16 mx-auto py-0 border-none " />
+                    <h2 data-aos-once="true" data-aos="fade-down" className=" max-w-screen-lg mx-auto text-center text-white text-opacity-100 text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase font-Poppins">Quienes Somos</h2>
+                    <hr data-aos-once="true" data-aos="flip-left" className=" max-w-screen-lg block w-1/3 sm:w-1/3 md:w-1/4 lg:w-1/5 h-0.5 bg-[#E27905] mt-12 sm:mt-12 md:mt-14 lg:mt-16 mx-auto py-0 border-none " />
                 </div>
             </section>
             <section className=" w-full my-20 sm:my-20 md:my-24 lg:my-28 ">
                 <div className=" max-w-screen-lg w-full mx-auto">
-                    <p data-aos="fade-up" className=" text-left sm:text-left md:text-center lg:text-center text-gray-600 text-lg sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-6 md:px-8 lg:px-8 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed ">
+                    <p data-aos-once="true" data-aos="fade-up" className=" text-left sm:text-left md:text-center lg:text-center text-gray-600 text-lg sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-6 md:px-8 lg:px-8 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed ">
                         Somos una empresa de larga trayectoria en el Mercado de Seguros, concentrándonos principalmente en la V Región, otorgando un excelente servicio en atención al cliente, asesorándolos y contando con un equipo altamente capacitado con el objetivo de que nuestros clientes se sientan seguros al momento de optar por nuestros servicios.
                     </p>
-                    <p data-aos="fade-up" className=" text-left sm:text-left md:text-center lg:text-center text-gray-600 text-lg sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-6 md:px-8 lg:px-8 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed mt-4 sm:mt-4 md:mt-8 lg:mt-10 ">
+                    <p data-aos-once="true" data-aos="fade-up" className=" text-left sm:text-left md:text-center lg:text-center text-gray-600 text-lg sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-6 md:px-8 lg:px-8 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed mt-4 sm:mt-4 md:mt-8 lg:mt-10 ">
                         Además, le brindamos al cliente una variedad de alternativas para pagar, ya sea directamente por nuestra página web, facilitando mayor acceso económico, o a través de nuestros locales comerciales, de acuerdo con las necesidades de nuestros clientes.
                     </p>
                 </div>
@@ -37,14 +37,14 @@ export default function quienessomos() {
             <section className=" my-24 sm:my-24 md:my-24 lg:my-28 ">
                 <div className=" max-w-screen-lg mx-auto w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 sm:gap-20 md:gap-6 lg:gap-6">
                     <div className=" flex flex-col items-start text-left mx-6 sm:mx-6 md:ml-6 lg:ml-6">
-                        <h2 data-aos="fade-down" className=" inline-block border-b-4 boder-solid border-[#E27905] pb-2 mb-4 text-xl sm:text-xl md:text-2xl lg:text-2xl uppercase font-bold">Misión</h2>
-                        <p data-aos="fade-right" className=" mb-2 uppercase font-bold text-lg sm:text-lg md:text-lg lg:text-xl leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed">“Siempre preocupados por satisfacer sus necesidades”</p>
-                        <p data-aos="fade-right" className="  text-gray-600 text-lg sm:text-lg md:text-lg lg:text-xl leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed">Nuestra misión es ofrecer a nuestros clientes y nuestros socios, confianza mediante soluciones rápidas, servicio de calidad, y alternativas en precios.</p>
-                        <h2 data-aos="fade-down" className=" inline-block border-b-4 boder-solid border-[#E27905] pb-2 mt-8 mb-4 text-xl sm:text-xl md:text-2xl lg:text-2xl uppercase font-bold">Visión</h2>
-                        <p data-aos="fade-right" className="  text-gray-600 text-lg sm:text-lg md:text-lg lg:text-xl leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed">Nuestra visión es continuar extendiéndonos en el mercado de las aseguradoras, generando y fortaleciendo alianzas con nuestros socios, y continuar consolidando nuestro compromiso para nuestros clientes otorgando seguridad, confianza y precios accesibles.</p>
+                        <h2 data-aos-once="true" data-aos="fade-down" className=" inline-block border-b-4 boder-solid border-[#E27905] pb-2 mb-4 text-xl sm:text-xl md:text-2xl lg:text-2xl uppercase font-bold">Misión</h2>
+                        <p data-aos-once="true" data-aos="fade-right" className=" mb-2 uppercase font-bold text-lg sm:text-lg md:text-lg lg:text-xl leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed">“Siempre preocupados por satisfacer sus necesidades”</p>
+                        <p data-aos-once="true" data-aos="fade-right" className="  text-gray-600 text-lg sm:text-lg md:text-lg lg:text-xl leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed">Nuestra misión es ofrecer a nuestros clientes y nuestros socios, confianza mediante soluciones rápidas, servicio de calidad, y alternativas en precios.</p>
+                        <h2 data-aos-once="true" data-aos="fade-down" className=" inline-block border-b-4 boder-solid border-[#E27905] pb-2 mt-8 mb-4 text-xl sm:text-xl md:text-2xl lg:text-2xl uppercase font-bold">Visión</h2>
+                        <p data-aos-once="true" data-aos="fade-right" className="  text-gray-600 text-lg sm:text-lg md:text-lg lg:text-xl leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed">Nuestra visión es continuar extendiéndonos en el mercado de las aseguradoras, generando y fortaleciendo alianzas con nuestros socios, y continuar consolidando nuestro compromiso para nuestros clientes otorgando seguridad, confianza y precios accesibles.</p>
                     </div>
                     <div className=" flex items-center justify-center mx-4 sm:mx-4 md:mx-0 lg:mx-0">
-                        <Image data-aos="fade-left" className=" w-10/12 sm:w-10/12 md:w-full lg:w-full" src={misionvision} alt="misionvision" />
+                        <Image data-aos-once="true" data-aos="fade-left" className=" w-10/12 sm:w-10/12 md:w-full lg:w-full" src={misionvision} alt="misionvision" />
                     </div>
                 </div>
             </section>
@@ -52,7 +52,7 @@ export default function quienessomos() {
             <section className=" max-w-screen-lg mx-auto my-24 sm:my-24 md:my-24 lg:my-28 ">
                 <ImageSlider/>
                 <div className=" w-11/12 sm:w-11/12 md:w-2/3 lg:w-2/3 bg-[#F68F2A] pt-20 sm:pt-20 pb-12 sm:pb-12 md:py-12 lg:py-12 mx-auto sm:mx-auto md:mx-8 lg:mx-8">
-                    <div data-aos="fade-right" className=" mx-6 sm:mx-6 md:ml-6 lg:ml-6 text-white ">
+                    <div data-aos-once="true" data-aos="fade-right" className=" mx-6 sm:mx-6 md:ml-6 lg:ml-6 text-white ">
                         <h2 className="  mb-4 text-xl sm:text-xl md:text-2xl lg:text-2xl uppercase font-extrabold">¿Sabía que…</h2>
                         <p className=" mb-4 text-lg sm:text-lg md:text-lg lg:text-xl leading-normal ">La importancia de contar con el Seguro Obligatorio SOAP se basa en dos principales aspectos: la obligación legal de tener contratada esta póliza y el respaldo económico que significa en caso de sufrir un accidente vial con daños personales.</p>
                         <p className=" mb-4 text-lg sm:text-lg md:text-lg lg:text-xl leading-normal ">Podrás recibir una indemnización en caso de que tu vehículo se vea involucrado en un siniestro en el que hayan resultado personas lesionadas o fallecidas y te evitará la aplicación de multas en caso de ser fiscalizado por Carabineros.</p>

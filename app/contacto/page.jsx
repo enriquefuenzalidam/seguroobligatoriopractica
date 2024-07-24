@@ -13,8 +13,8 @@ export default function quienessomos() {
         <main className=" bg-cover bg-left-top " style={{ backgroundImage: `url(${contactofondo.src})` }}>
             <section className="bg-black bg-opacity-30 mt-16 sm:mt-16 md:mt-16 lg:mt-24">
                 <div className=" w-full mx-auto py-48">
-                    <h2 data-aos="fade-down" className=" max-w-screen-lg mx-auto text-center text-white text-opacity-100 text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase font-Poppins">Contacto</h2>
-                    <hr data-aos="fade-up" className=" max-w-screen-lg block w-1/3 sm:w-1/3 md:w-1/4 lg:w-1/5 h-0.5 bg-[#E27905] mt-12 sm:mt-12 md:mt-14 lg:mt-16 mx-auto py-0 border-none " />
+                    <h2 data-aos-once="true" data-aos="fade-down" className=" max-w-screen-lg mx-auto text-center text-white text-opacity-100 text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase font-Poppins">Contacto</h2>
+                    <hr data-aos-once="true" data-aos="flip-left" className=" max-w-screen-lg block w-1/3 sm:w-1/3 md:w-1/4 lg:w-1/5 h-0.5 bg-[#E27905] mt-12 sm:mt-12 md:mt-14 lg:mt-16 mx-auto py-0 border-none " />
                 </div>
             </section>
             {/*
