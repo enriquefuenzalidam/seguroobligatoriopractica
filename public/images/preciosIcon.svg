@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 508.54 508.54" style="enable-background:new 0 0 508.54 508.54;" xml:space="preserve">
+	<style type="text/css">
+		.st0{fill:url(#SVGID_1_);stroke:#F79D45;stroke-width:35;stroke-miterlimit:10;}
+		.st1{fill:none;stroke:#F79D45;stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	</style>
+	<g id="background"></g>
+	<g id="objects">
+		<g>
+			<radialGradient id="SVGID_1_" cx="254.2708" cy="254.2708" r="226.5141" gradientUnits="userSpaceOnUse">
+				<stop offset="0" style="stop-color:#FFFFFF"></stop>
+				<stop offset="0.5098" style="stop-color:#FDFDFD"></stop>	
+				<stop offset="0.6935" style="stop-color:#F6F6F6"></stop>	
+				<stop offset="0.8244" style="stop-color:#EBEBEB"></stop>	
+				<stop offset="0.9295" style="stop-color:#DADADA"></stop>	
+				<stop offset="1" style="stop-color:#C9C9C9"></stop>
+			</radialGradient>
+			<circle class="st0" cx="254.27" cy="254.27" r="226.51"></circle>	
+			<g>
+				<polyline class="st1" points="369.31,280.43 254.27,395.47 139.23,280.43"></polyline>
+				<polyline class="st1" points="369.31,136.76 254.27,251.8 139.23,136.76"></polyline>
+			</g>
+		</g>
+	</g>
+</svg>
