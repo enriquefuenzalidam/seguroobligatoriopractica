@@ -1,11 +1,6 @@
 
-import Link from 'next/link';
 import Image from 'next/image';
 import Preciotablasgenerador from './preciotablasgenerador';
-
-import aliansabciseguros from 'public/images/aliansabciseguros.jpg';
-import aliansahdiseguros from 'public/images/aliansahdiseguros.png';
-import aliansamutualdesegurosdechile from 'public/images/aliansamutualdesegurosdechile.png';
 
 import preciosCover from 'public/images/preciosCover.jpg';
 import preciosIcon from 'public/images/preciosIcon.svg';

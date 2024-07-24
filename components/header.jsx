@@ -49,7 +49,7 @@ export function Header() {
                     <span className="text-black text-lg uppercase font-bold inline-block">Menú</span>
                 </p>
                 <p className={` lg:min-w-44 lg:max-w-44 h-auto md:min-w-28 md:max-w-28 sm:min-w-28 sm:max-w-28 min-w-28 max-w-28 ${isScrolled ? 'inline-block ms:inline-block md:inline-block lg:hidden' : 'inline-block'}`}>
-                    <Link className=" inline-block" href="/">
+                    <Link className=" inline-block" href="./precios">
                         <Image src={seguroObligatorio} alt="Seguro Obligatorio" />
                     </Link>
                 </p>

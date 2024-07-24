@@ -130,7 +130,7 @@ export default function Page() {
                 <div className=" bg-black bg-opacity-30 w-full py-12 px-4">
                     <h3 data-aos="fade-down" className=" w-full mx-auto text-white mb-6 text-3xl uppercase font-bold  text-opacity-80 text-center">Contacto</h3>
                     <p data-aos="fade-up" className=" w-full mx-auto text-white max-w-3xl mb-6 text-opacity-80 text-center text-lg sm:text-lg md:text-xl lg:text-2xl px-6 leading-normal ">Necesitas cotizar tu Seguro Obligatorio. Déjanos tu mensaje y uno de nuestros representantes te contactará a la brevedad.</p>
-                    <form data-aos="fade-up" className="py-8 mx-auto w-full max-w-3xl bg-white rounded-xl p-4  shadow-lg shadow-black" method="post" >
+                    <form data-aos-once="true" data-aos="fade-up" className="py-8 mx-auto w-full max-w-3xl bg-white p-4 rounded-xl shadow-lg shadow-black" method="post" >
                         <p className="">
                             <label className=" block text-base " htmlFor="nombre">Nombre</label>
                             <input className=" block w-full border-2 border-solid border-gray-300 p-2 bg-white" type="text" id="nombre" name="nombre" />

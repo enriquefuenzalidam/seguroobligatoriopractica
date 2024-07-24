@@ -8,7 +8,8 @@ import 'aos/dist/aos.css';
 const AOSInitializer = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1200, // Duration of animation in milliseconds
+      duration: 1200,
+      once: true
     });
     AOS.refresh();
   }, []);
