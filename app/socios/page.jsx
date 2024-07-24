@@ -37,7 +37,7 @@ export default function quienessomos() {
                             <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                                 Somos una Corporación de derecho privado, sin fines de lucro, que desde 1919 mantiene un lugar destacado en la industria aseguradora de vida en el país.</p>
                             <p className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href="" >Compra aquí</Link>
+                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href="https://core.mutualdeseguros.cl/soap_ms/pago.php" >Compra aquí</Link>
                             </p>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ export default function quienessomos() {
                             <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                                 BCI Seguros, es una empresa para servir a personas y PYMES, basada en la innovación, calidad, excelencia, comprometidos y eficientes de Chile.</p>
                             <p className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href="" >Compra aquí</Link>
+                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href="https://core.mutualdeseguros.cl/soap_ms/pago.php" >Compra aquí</Link>
                             </p>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ export default function quienessomos() {
                             <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                             Cotiza y contrata tu Seguro Automotriz, Vida, Hogar o Salud aquí. En Seguros HDI disponemos del mejor servicio y las mejores coberturas de seguros en Chile.</p>
                             <p className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href="" >Compra aquí</Link>
+                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href="https://core.mutualdeseguros.cl/soap_ms/pago.php" >Compra aquí</Link>
                             </p>
                         </div>
                     </div>
