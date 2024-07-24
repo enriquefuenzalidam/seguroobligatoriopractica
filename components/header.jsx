@@ -76,7 +76,7 @@ export function Header() {
 
 
             {!!navItems?.length && (
-                <ul className={`bg-white lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+                <ul className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
                     isOpen ? 'max-h-screen opacity-100 py-5 px-6' : 'max-h-0 opacity-0'
                 }`} >
                     {navItems.map((item, index) => (
