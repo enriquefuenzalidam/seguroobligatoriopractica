@@ -45,8 +45,8 @@ export default function quienessomos() {
                             <p data-aos="slide-left" className="text-left my-4 bg-[#1E73BE] p-3 text-white text-lg sm:text-lg md:text-xl lg:text-2xl">Minibús</p>
                             <p data-aos="slide-left" className="text-left my-4 bg-[#1E73BE] p-3 text-white text-lg sm:text-lg md:text-xl lg:text-2xl">Motos</p>
                         </div>
-                        <div className=" block sm:block md:flex lg:flex">
-                            <p className="relative aspect-w-5 sm:aspect-w-5 md:w-full lg:w-full aspect-h-3 sm:aspect-h-3 md:h-full lg:h-full overflow-hidden">
+                        <div className=" block sm:block md:flex lg:flex bg-[#1E73BE]">
+                            <p className="relative aspect-w-5 sm:aspect-w-5 md:w-full lg:w-full aspect-h-3 sm:aspect-h-3 md:h-full lg:h-full overflow-hidden ">
                                 <Image className="absolute top-0 left-0 object-cover w-full h-full" src={sociossabiasqueCuatro} alt=""/>
                             </p>
                         </div>
@@ -64,7 +64,7 @@ export default function quienessomos() {
                             <p data-aos="slide-left" className="text-left my-4 bg-[#E68A24] p-3 text-white text-lg sm:text-lg md:text-xl lg:text-2xl">Minibús particular</p>
                             <p data-aos="slide-left" className="text-left my-4 bg-[#E68A24] p-3 text-white text-lg sm:text-lg md:text-xl lg:text-2xl">Bus escolar</p>
                         </div>
-                        <div className=" block sm:block md:flex lg:flex">
+                        <div className=" block sm:block md:flex lg:flex bg-[#E68A24]">
                             <p className="relative aspect-w-5 sm:aspect-w-5 md:w-full lg:w-full aspect-h-3 sm:aspect-h-3 md:h-full lg:h-full overflow-hidden">
                                 <Image className="absolute top-0 left-0 object-cover w-full h-full" src={coverBgImageNueve} alt=""/>
                             </p>
@@ -82,7 +82,7 @@ export default function quienessomos() {
                             <p data-aos="slide-left" className="text-left my-4 bg-[#78C93E] p-3 text-white text-lg sm:text-lg md:text-xl lg:text-2xl">Semiremolque</p>
                             <p data-aos="slide-left" className="text-left my-4 bg-[#78C93E] p-3 text-white text-lg sm:text-lg md:text-xl lg:text-2xl">Maquina industrial</p>
                         </div>
-                        <div className=" block sm:block md:flex lg:flex">
+                        <div className=" block sm:block md:flex lg:flex bg-[#78C93E]">
                             <p className="relative aspect-w-5 sm:aspect-w-5 md:w-full lg:w-full aspect-h-3 sm:aspect-h-3 md:h-full lg:h-full overflow-hidden">
                                 <Image className="absolute top-0 left-0 object-cover w-full h-full" src={campagnaSeptiembre} alt=""/>
                             </p>

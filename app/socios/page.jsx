@@ -2,8 +2,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-
-
 import socios from 'public/images/socios.jpg';
 import aliansabciseguros from 'public/images/aliansabciseguros.jpg';
 import aliansahdiseguros from 'public/images/aliansahdiseguros.png';
@@ -15,7 +13,6 @@ export const metadata = {
     title: 'Socios'
 }
   
-
 
 export default function quienessomos() {
     return (
