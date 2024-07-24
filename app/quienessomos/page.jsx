@@ -9,6 +9,10 @@ import misionvision from 'public/images/misionvision.png';
 
 import ImageSlider from './imageSlider';
 
+export const metadata = {
+    title: 'Quiénes Somos'
+}
+  
 
 export default function quienessomos() {
     return (

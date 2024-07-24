@@ -11,6 +11,11 @@ import aliansamutualdesegurosdechile from 'public/images/aliansamutualdesegurosd
 
 import ImageSlider from './imageSlider';
 
+export const metadata = {
+    title: 'Socios'
+}
+  
+
 
 export default function quienessomos() {
     return (

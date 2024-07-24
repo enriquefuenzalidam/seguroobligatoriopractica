@@ -83,11 +83,10 @@ const ImageSlider = ({ children }) => {
           <CSSTransition key={currentImageIndex} timeout={1000} classNames="fade">
             <ImageWrapper>
               <Image
-                className="w-full block"
+                className="w-full block object-cover"
                 src={currentImage.src}
                 alt={currentImage.alt}
                 layout="fill"
-                objectFit="cover"
               />
             </ImageWrapper>
           </CSSTransition>

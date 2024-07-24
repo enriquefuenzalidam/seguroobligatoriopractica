@@ -15,7 +15,7 @@ const navItems = [
     { linkText: 'Inicio', href: '/' },
     { linkText: 'Quiénes somos', href: '/quienessomos' },
     { linkText: 'Socios', href: '/socios' },
-    { linkText: 'Campañas', href: '/campañas' },
+    { linkText: 'Campañas', href: '/campagnas' },
     { linkText: 'Precios', href: '/precios' },
     { linkText: 'Contacto', href: '/contacto' }
 ];
