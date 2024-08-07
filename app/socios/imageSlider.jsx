@@ -6,7 +6,6 @@ import sociossabiasqueUno from 'public/images/sociossabiasqueUno.jpg';
 import sociossabiasqueDos from 'public/images/sociossabiasqueDos.jpg';
 import sociossabiasqueTres from 'public/images/sociossabiasqueTres.jpg';
 import sociossabiasqueCuatro from 'public/images/sociossabiasqueCuatro.jpg';
-import Image from 'next/image';
 
 const images = [
   { src: sociossabiasqueUno, alt: 'sociossabiasqueUno' },
@@ -82,9 +81,9 @@ const ImageSlider = ({ children }) => {
         <TransitionGroup>
           <CSSTransition key={currentImageIndex} timeout={1000} classNames="fade">
             <ImageWrapper>
-              <Image
+              <img
                 className="w-full block object-cover"
-                src={currentImage.src}
+                src={currentImage.src.src}
                 alt={currentImage.alt}
                 layout="fill"
               />

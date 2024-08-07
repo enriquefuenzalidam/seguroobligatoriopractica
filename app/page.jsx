@@ -1,6 +1,5 @@
 
 import Link from 'next/link';
-import Image from 'next/image';
 
 
 import styled from 'styled-components';
@@ -46,7 +45,7 @@ export default function Page() {
 
                     <div className="  mt-32 flex justify-center sm:justify-center md:justify-end lg:justify-end">
                         <div data-aos-once="true" data-aos="fade-down" className=" h-full text-center border-solid border-2 border-neutral-100 rounded-lg max-w-96 py-8 shadow-lg shadow-neutral-500">
-                            <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><Image className="mx-auto" src={aliansamutualdesegurosdechile} alt=""/></p>
+                            <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><img className="mx-auto" src={aliansamutualdesegurosdechile.src} alt=""/></p>
                             <h3 className=" font-bold text-lg sm:text-lg md:text-xl lg:text-xl px-6 uppercase font-Poppins  m-3 sm:m-3 md:m-6 lg:m-6">Mutual de Seguros</h3>
                             <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                                 Somos una Corporación de derecho privado, sin fines de lucro, que desde 1919 mantiene un lugar destacado en la industria aseguradora de vida en el país.</p>
@@ -55,7 +54,7 @@ export default function Page() {
 
                     <div className="  mt-32 flex justify-center sm:justify-center md:justify-start lg:justify-start">
                         <div data-aos-once="true" data-aos="fade-down" className=" h-full text-center border-solid border-2 border-neutral-100 rounded-lg max-w-96 py-8 shadow-lg shadow-neutral-500">
-                            <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><Image className="mx-auto" src={aliansabciseguros} alt=""/></p>
+                            <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><img className="mx-auto" src={aliansabciseguros.src} alt=""/></p>
                             <h3 className=" font-bold text-lg sm:text-lg md:text-xl lg:text-xl px-6 uppercase font-Poppins m-3 sm:m-3 md:m-6 lg:m-6">BCI Seguros</h3>
                             <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                                 BCI Seguros, es una empresa para servir a personas y PYMES, basada en la innovación, calidad, excelencia, comprometidos y eficientes de Chile.</p>
@@ -86,7 +85,7 @@ export default function Page() {
 
                     <div data-aos-once="true" data-aos="fade-left" className="flex shadow-lg shadow-neutral-500 rounded-md border-2 border-solid border-black border-opacity-5  max-w-96 mx-auto">
                         <div className="uppercase text-center h-full w-full p-4 sm:p-4 md:p-3 lg:p-6">
-                            <p><Image src={campagnasmarzo} alt="Campagna Mayo"/></p>
+                            <p><img src={campagnasmarzo.src} alt="Campagna Mayo"/></p>
                             <h3 className="mt-6 mb-3 font-bold text-black text-xl font-Poppins">Marzo</h3>
                             <ul className="text-gray-600 text-sm sm:text-md md:text-lg lg:text-lg">
                                 <li >Auto</li>
@@ -100,7 +99,7 @@ export default function Page() {
                     </div>
                     <div data-aos-once="true" data-aos="fade-left" className="flex shadow-lg shadow-neutral-500 rounded-md border-2 border-solid border-black border-opacity-5  max-w-96 mx-auto">
                         <div className="uppercase text-center h-full w-full p-4 sm:p-4 md:p-3 lg:p-6">
-                            <p><Image src={campagnasmayo} alt="Campagna Marzo"/></p>
+                            <p><img src={campagnasmayo.src} alt="Campagna Marzo"/></p>
                             <h3 className="mt-6 mb-3 font-bold text-black text-xl font-Poppins">Mayo</h3>
                             <ul className="text-gray-600 text-sm sm:text-md md:text-lg lg:text-lg">
                                 <li >Taxi Básico</li>
@@ -114,7 +113,7 @@ export default function Page() {
                     </div>
                     <div data-aos-once="true" data-aos="fade-left" className="flex shadow-lg shadow-neutral-500 rounded-md border-2 border-solid border-black border-opacity-5  max-w-96 mx-auto">
                         <div className="uppercase text-center h-full w-full p-4 sm:p-4 md:p-3 lg:p-6">
-                            <p><Image src={campagnasseptiembre} alt="Campagna Septiembre"/></p>
+                            <p><img src={campagnasseptiembre.src} alt="Campagna Septiembre"/></p>
                             <h3 className="mt-6 mb-3 font-bold text-black text-xl font-Poppins">Septiembre</h3>
                             <ul className="text-gray-600 text-sm sm:text-md md:text-lg lg:text-lg">
                                 <li >Camión</li>

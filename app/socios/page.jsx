@@ -1,6 +1,5 @@
 
 import Link from 'next/link';
-import Image from 'next/image';
 
 import socios from 'public/images/socios.jpg';
 import aliansabciseguros from 'public/images/aliansabciseguros.jpg';
@@ -32,7 +31,7 @@ export default function quienessomos() {
 
                     <div className="  mt-32 flex justify-center sm:justify-center md:justify-end lg:justify-end">
                         <div data-aos-once="true" data-aos="fade-down" className=" relative h-full text-center border-solid border-2 border-neutral-100 rounded-lg max-w-96 py-8 shadow-lg shadow-neutral-500">
-                            <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><Image className="mx-auto" src={aliansamutualdesegurosdechile} alt=""/></p>
+                            <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><img className="mx-auto" src={aliansamutualdesegurosdechile.src} alt=""/></p>
                             <h3 className=" font-bold text-lg sm:text-lg md:text-xl lg:text-xl px-6 uppercase font-Poppins  m-3 sm:m-3 md:m-6 lg:m-6">Mutual de Seguros</h3>
                             <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                                 Somos una Corporación de derecho privado, sin fines de lucro, que desde 1919 mantiene un lugar destacado en la industria aseguradora de vida en el país.</p>
@@ -44,7 +43,7 @@ export default function quienessomos() {
 
                     <div className="  mt-32 flex justify-center sm:justify-center md:justify-start lg:justify-start">
                         <div data-aos-once="true" data-aos="fade-down" className=" h-full text-center border-solid border-2 border-neutral-100 rounded-lg max-w-96 py-8 shadow-lg shadow-neutral-500">
-                            <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><Image className="mx-auto" src={aliansabciseguros} alt=""/></p>
+                            <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><img className="mx-auto" src={aliansabciseguros.src} alt=""/></p>
                             <h3 className=" font-bold text-lg sm:text-lg md:text-xl lg:text-xl px-6 uppercase font-Poppins m-3 sm:m-3 md:m-6 lg:m-6">BCI Seguros</h3>
                             <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                                 BCI Seguros, es una empresa para servir a personas y PYMES, basada en la innovación, calidad, excelencia, comprometidos y eficientes de Chile.</p>
@@ -56,7 +55,7 @@ export default function quienessomos() {
 
                     <div className="  mt-32 flex justify-center sm:justify-center md:justify-start lg:justify-start">
                         <div data-aos-once="true" data-aos="fade-down" className=" h-full text-center border-solid border-2 border-neutral-100 rounded-lg max-w-96 py-8 shadow-lg shadow-neutral-500">
-                            <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><Image className="mx-auto" src={aliansahdiseguros} alt=""/></p>
+                            <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><img className="mx-auto" src={aliansahdiseguros.src} alt=""/></p>
                             <h3 className=" font-bold text-lg sm:text-lg md:text-xl lg:text-xl px-6 uppercase font-Poppins m-3 sm:m-3 md:m-6 lg:m-6">HDI Seguros</h3>
                             <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                             Cotiza y contrata tu Seguro Automotriz, Vida, Hogar o Salud aquí. En Seguros HDI disponemos del mejor servicio y las mejores coberturas de seguros en Chile.</p>

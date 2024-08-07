@@ -1,6 +1,5 @@
 
 import Link from 'next/link';
-import Image from 'next/image';
 
 
 
@@ -47,7 +46,7 @@ export default function quienessomos() {
                         </div>
                         <div className=" block sm:block md:flex lg:flex bg-[#1E73BE]">
                             <p className="relative aspect-w-5 sm:aspect-w-5 md:w-full lg:w-full aspect-h-3 sm:aspect-h-3 md:h-full lg:h-full overflow-hidden ">
-                                <Image className="absolute top-0 left-0 object-cover w-full h-full" src={sociossabiasqueCuatro} alt=""/>
+                                <img className="absolute top-0 left-0 object-cover w-full h-full" src={sociossabiasqueCuatro.src} alt=""/>
                             </p>
                         </div>
                     </div>
@@ -66,7 +65,7 @@ export default function quienessomos() {
                         </div>
                         <div className=" block sm:block md:flex lg:flex bg-[#E68A24]">
                             <p className="relative aspect-w-5 sm:aspect-w-5 md:w-full lg:w-full aspect-h-3 sm:aspect-h-3 md:h-full lg:h-full overflow-hidden">
-                                <Image className="absolute top-0 left-0 object-cover w-full h-full" src={coverBgImageNueve} alt=""/>
+                                <img className="absolute top-0 left-0 object-cover w-full h-full" src={coverBgImageNueve.src} alt=""/>
                             </p>
                         </div>
                     </div>
@@ -84,7 +83,7 @@ export default function quienessomos() {
                         </div>
                         <div className=" block sm:block md:flex lg:flex bg-[#78C93E]">
                             <p className="relative aspect-w-5 sm:aspect-w-5 md:w-full lg:w-full aspect-h-3 sm:aspect-h-3 md:h-full lg:h-full overflow-hidden">
-                                <Image className="absolute top-0 left-0 object-cover w-full h-full" src={campagnaSeptiembre} alt=""/>
+                                <img className="absolute top-0 left-0 object-cover w-full h-full" src={campagnaSeptiembre.src} alt=""/>
                             </p>
                         </div>
                     </div>

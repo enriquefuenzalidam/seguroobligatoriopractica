@@ -1,5 +1,4 @@
 
-import Image from 'next/image';
 import Preciotablasgenerador from './preciotablasgenerador';
 
 import preciosCover from 'public/images/preciosCover.jpg';
@@ -85,7 +84,7 @@ export default function quienessomos() {
                 <div className=" bg-black bg-opacity-30 w-full mx-auto py-48">
                     <h2 data-aos-once="true" data-aos="fade-down" className=" max-w-screen-lg mx-auto text-center text-white text-opacity-100 text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase font-Poppins">Precios</h2>
                     <p className=" text-center">
-                        <Image className=" mx-auto w-24 mt-12 hover:translate-y-4 hover:transition-all hover:duration-300 translate-y-0 transition-all duration-300 " src={preciosIcon} alt="Precios Icon" />
+                        <img className=" mx-auto w-24 mt-12 hover:translate-y-4 hover:transition-all hover:duration-300 translate-y-0 transition-all duration-300 " src={preciosIcon.src} alt="Precios Icon" />
                     </p>
                 </div>
             </section>

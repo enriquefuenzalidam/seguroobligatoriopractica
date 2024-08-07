@@ -4,7 +4,6 @@ import { useRouter } from 'next/navigation';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import Image from 'next/image';
 import Link from 'next/link';
 
 import seguroObligatorio from 'public/images/seguroobligatorio.png';
@@ -47,13 +46,13 @@ export function Header() {
             <section data-aos="fade-down" className=" max-w-screen-lg mx-auto flex flex-row items-center justify-center">
                 <div className=" w-full h-full lg:hidden flex flex-row items-center justify-left gap-2">
                     <p className="inline-flex flex-row cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
-                        <Image className="inline-block w-4 " src={hamburgerMenu} alt="" />
+                        <img className="inline-block w-4 " src={hamburgerMenu.src} alt="" />
                         <span className="inline-block ml-2 text-black text-lg uppercase font-bold ">Menú</span>
                     </p>
                 </div>
                 <p className={` lg:min-w-44 lg:max-w-44 h-auto md:min-w-28 md:max-w-28 sm:min-w-28 sm:max-w-28 min-w-28 max-w-28 ${isScrolled ? 'inline-block ms:inline-block md:inline-block lg:hidden' : 'inline-block'}`}>
                     <Link className=" inline-block" href="./precios">
-                        <Image src={seguroObligatorio} alt="Seguro Obligatorio" />
+                        <img src={seguroObligatorio.src} alt="Seguro Obligatorio" />
                     </Link>
                 </p>
             {!!navItems?.length && (
@@ -69,7 +68,7 @@ export function Header() {
             )}
                 <p className={` lg:min-w-44 lg:max-w-44 h-auto md:min-w-28 md:max-w-28 sm:min-w-28 sm:max-w-28 min-w-28 max-w-28 ${isScrolled ? 'inline-block ms:inline-block md:inline-block lg:hidden' : 'inline-block'}`}>
                     <Link className="inline-block" href="./" >
-                        <Image src={segurosGenerales} alt="Seguros Generales logo" />
+                        <img src={segurosGenerales.src} alt="Seguros Generales logo" />
                     </Link>
                 </p>
             </section>

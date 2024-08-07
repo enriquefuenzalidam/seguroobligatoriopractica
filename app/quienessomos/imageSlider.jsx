@@ -5,7 +5,6 @@ import styled, { createGlobalStyle, keyframes } from 'styled-components';
 import autoaccidenteUno from 'public/images/autoaccidenteUno.jpg';
 import autoaccidenteDos from 'public/images/autoaccidenteDos.jpg';
 import autoaccidenteTres from 'public/images/autoaccidenteTres.jpg';
-import Image from 'next/image';
 
 const images = [
   { src: autoaccidenteUno, alt: 'autoaccidenteUno' },
@@ -80,9 +79,9 @@ const ImageSlider = ({ children }) => {
         <TransitionGroup>
           <CSSTransition key={currentImageIndex} timeout={1000} classNames="fade">
             <ImageWrapper>
-              <Image
+              <img
                 className="w-full block"
-                src={currentImage.src}
+                src={currentImage.src.src}
                 alt={currentImage.alt}
                 layout="fill"
                 objectFit="cover"

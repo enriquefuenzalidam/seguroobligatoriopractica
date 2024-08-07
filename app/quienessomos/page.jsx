@@ -1,6 +1,5 @@
 
 import Link from 'next/link';
-import Image from 'next/image';
 
 
 
@@ -44,7 +43,7 @@ export default function quienessomos() {
                         <p data-aos-once="true" data-aos="fade-right" className="  text-gray-600 text-lg sm:text-lg md:text-lg lg:text-xl leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed">Nuestra visión es continuar extendiéndonos en el mercado de las aseguradoras, generando y fortaleciendo alianzas con nuestros socios, y continuar consolidando nuestro compromiso para nuestros clientes otorgando seguridad, confianza y precios accesibles.</p>
                     </div>
                     <div className=" flex items-center justify-center mx-4 sm:mx-4 md:mx-0 lg:mx-0">
-                        <Image data-aos-once="true" data-aos="fade-left" className=" w-10/12 sm:w-10/12 md:w-full lg:w-full" src={misionvision} alt="misionvision" />
+                        <img data-aos-once="true" data-aos="fade-left" className=" w-10/12 sm:w-10/12 md:w-full lg:w-full" src={misionvision.src} alt="misionvision" />
                     </div>
                 </div>
             </section>

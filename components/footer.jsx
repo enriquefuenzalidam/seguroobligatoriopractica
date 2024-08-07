@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 import seguroObligatorioBlanco from 'public/images/seguroobligatorio_blanco.png';
 import instagramLogo from 'public/images/instagram.svg';
@@ -14,12 +13,12 @@ export function Footer() {
             <section className=" max-w-screen-lg mx-auto pt-6">
                 <div className="w-full sm:w-full md:w-1/2 lg:w-1/2 mb-6 text-center inline-block align-top">
                     <h3 className="">
-                        <Image className="inline-block w-44 " src={seguroObligatorioBlanco} alt="Seguro Obligatorio Blanco" />
+                        <img className="inline-block w-44 " src={seguroObligatorioBlanco.src} alt="Seguro Obligatorio Blanco" />
                     </h3>
                     <p className="mt-3 text-md">© 2022 Seguro Obligatorio<br/>Creado por Seguro Obligatorio</p>
                     <p className=" mt-6 ">
-                        <Image className="inline-block w-6 h-6 mx-3 " src={facebookLogo} alt="" />
-                        <Image className="inline-block w-6 h-6 mx-3 " src={instagramLogo} alt="" />
+                        <img className="inline-block w-6 h-6 mx-3 " src={facebookLogo.src} alt="" />
+                        <img className="inline-block w-6 h-6 mx-3 " src={instagramLogo.src} alt="" />
                     </p>
                 </div>
                 <div className="w-full sm:w-full md:w-1/2 lg:w-1/2 mb-6 text-center inline-block align-top">
@@ -36,9 +35,9 @@ export function Footer() {
                 <div className="w-full sm:w-full md:w-1/3 lg:w-1/3 my-6 text-center inline-block align-top">
                     <h3 className="my-3 uppercase text-lg font-bold">Datos de contacto</h3>
                     <address className="block my-3 text-md not-italic leading-loose ">
-                        <Link href="mailto:contacto.obligatorio@gmail.com"><Image className="inline-block w-4 mr-3" src={envelopeIcon} alt="Correo electrónico" />contacto.obligatorio@gmail.com</Link><br/>
-                        <Link href="tel:+56322233491"><Image className="inline-block w-4 mr-3" src={phoneIcon} alt="Telefono" />(32) 2233491</Link><br/>
-                        <Image className="inline-block w-4 mr-3" src={locationDotIcon} alt="Dirección" />Av. Colón 3192. Valparaíso
+                        <Link href="mailto:contacto.obligatorio@gmail.com"><img className="inline-block w-4 mr-3" src={envelopeIcon} alt="Correo electrónico" />contacto.obligatorio@gmail.com</Link><br/>
+                        <Link href="tel:+56322233491"><img className="inline-block w-4 mr-3" src={phoneIcon} alt="Telefono" />(32) 2233491</Link><br/>
+                        <img className="inline-block w-4 mr-3" src={locationDotIcon} alt="Dirección" />Av. Colón 3192. Valparaíso
                     </address>
                 </div> */}
             </section>
