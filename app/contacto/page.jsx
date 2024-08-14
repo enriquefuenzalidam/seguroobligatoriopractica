@@ -1,31 +1,8 @@
-"use client";
-import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
 
 import contactofondo from 'public/images/contactofondo.jpg';
 
 
 export default function quienessomos() {
-    const [state, handleSubmit] = useForm("mldrnqzn");
-    if (state.succeeded) {
-        return (
-
-            <main className=" bg-cover bg-left-top " style={{ backgroundImage: `url(${contactofondo.src})` }}>
-                <section className="bg-black bg-opacity-30 mt-16 sm:mt-16 md:mt-16 lg:mt-24">
-                    <div className=" w-full mx-auto pt-48 pb-20 ">
-                        <h2 data-aos-once="true" data-aos="fade-down" className=" max-w-screen-lg mx-auto text-center text-white text-opacity-100 text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase font-Poppins">Contacto</h2>
-                        <hr data-aos-once="true" data-aos="flip-left" className=" max-w-screen-lg block w-1/3 sm:w-1/3 md:w-1/4 lg:w-1/5 h-0.5 bg-[#E27905] mt-12 sm:mt-12 md:mt-14 lg:mt-16 mx-auto py-0 border-none " />
-                    </div>
-                </section>
-                <section className={` bg-black bg-opacity-30 pb-0 sm:pb-0 md:pb-20 lg:pb-20 w-full `}>
-                    <p className={` text-center text-2xl font-bold py-8 mx-auto w-full max-w-3xl bg-[#b79a76] p-4 bg-opacity-70 md:rounded-xl md:shadow-lg md:shadow-black lg:rounded-xl lg:shadow-lg lg:shadow-black `}>
-                        Gracias por su mensaje.
-                    </p>
-                </section>
-
-            </main>
-        );
-    }
     return (
         <main className=" bg-cover bg-left-top " style={{ backgroundImage: `url(${contactofondo.src})` }}>
             <section className="bg-black bg-opacity-30 mt-16 sm:mt-16 md:mt-16 lg:mt-24">
@@ -43,7 +20,7 @@ export default function quienessomos() {
             */}
             <section className="bg-black bg-opacity-30 pb-0 sm:pb-0 md:pb-12 lg:pb-12 w-full">
                     <form data-aos="fade-up" data-aos-once="true" className="py-8 mx-auto w-full max-w-3xl bg-[#b79a76] p-4 bg-opacity-70 md:rounded-xl md:shadow-lg md:shadow-black lg:rounded-xl lg:shadow-lg lg:shadow-black"
-                     onSubmit={handleSubmit} >
+                     >
                         <p className="">
                             <label className=" block text-base font-bold" htmlFor="nombre">Nombre</label>
                             <input className=" block w-full border-2 border-solid border-gray-300 p-2 bg-white" type="text" id="nombre" name="nombre" />
@@ -75,7 +52,7 @@ export default function quienessomos() {
                             <textarea className=" text-base block w-full border-2 border-solid border-gray-300 p-2 bg-white bg-opacity-70 appearance-none" ype="text" id="mensaje" name="mensaje" rows="10"></textarea>
                         </p>
                         <p className="mt-8">
-                            <input className=" cursor-pointer px-6 py-2 font-bold text-black uppercase text-center inline-block bg-gray-200 hover:bg-gray-300 transition-all ease duration-300" type="submit" disabled={state.submitting} id="enviar" name="enviar" value="Enviar" />
+                            <input className=" cursor-pointer px-6 py-2 font-bold text-black uppercase text-center inline-block bg-gray-200 hover:bg-gray-300 transition-all ease duration-300" type="submit" id="enviar" name="enviar" value="Enviar" />
                         </p>
                     </form>
             </section>
