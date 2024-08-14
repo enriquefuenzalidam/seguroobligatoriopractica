@@ -59,6 +59,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@formspree/react@^2.5.1",
         "npm:@netlify/blobs@^8.0.0",
         "npm:@tailwindcss/aspect-ratio@^0.4.2",
         "npm:@types/styled-components@^5.1.34",

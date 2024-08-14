@@ -1,8 +1,10 @@
+"use client";
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
 import Link from 'next/link';
 
 
-import styled from 'styled-components';
 import DynamicBackground from 'components/DynamicBackground';
 
 import aliansabciseguros from 'public/images/aliansabciseguros.jpg';
@@ -18,6 +20,23 @@ import contactofondo from 'public/images/contactofondo.jpg';
 
 
 export default function Page() {
+    const [state, handleSubmit] = useForm("mldrnqzn");
+    if (state.succeeded) {
+        return (
+
+            <main >
+                <section className={` w-full shadow-inner shadow-black bg-cover bg-left bg-repeat-x mt-16 sm:mt-16 md:mt-20 lg:mt-24  `} style={{ backgroundImage: `url(${contactofondo.src})` }}>
+                <div className=" bg-black bg-opacity-30 w-full py-12 px-4">
+                    <h3 data-aos-once="true" data-aos="fade-down" className=" w-full mx-auto text-white mb-6 text-3xl uppercase font-bold  text-opacity-80 text-center">Contacto</h3>
+                    <p className={` text-center text-2xl py-8 mx-auto w-full max-w-3xl bg-white bg-opacity-70 p-4 rounded-xl shadow-lg shadow-black `}>
+                        Gracias por su mensaje.
+                    </p>
+                    </div>
+                </section>
+
+            </main>
+        );
+    }
     return (
         <main className="">
             <DynamicBackground>
@@ -129,7 +148,8 @@ export default function Page() {
                 <div className=" bg-black bg-opacity-30 w-full py-12 px-4">
                     <h3 data-aos-once="true" data-aos="fade-down" className=" w-full mx-auto text-white mb-6 text-3xl uppercase font-bold  text-opacity-80 text-center">Contacto</h3>
                     <p data-aos-once="true" data-aos="fade-up" className=" w-full mx-auto text-white max-w-3xl mb-6 text-opacity-80 text-center text-lg sm:text-lg md:text-xl lg:text-2xl px-6 leading-normal ">Necesitas cotizar tu Seguro Obligatorio. Déjanos tu mensaje y uno de nuestros representantes te contactará a la brevedad.</p>
-                    <form data-aos-once="true" data-aos="fade-up" className="py-8 mx-auto w-full max-w-3xl bg-white bg-opacity-70 p-4 rounded-xl shadow-lg shadow-black" method="post" >
+                    <form data-aos-once="true" data-aos="fade-up" className="py-8 mx-auto w-full max-w-3xl bg-white bg-opacity-70 p-4 rounded-xl shadow-lg shadow-black"
+                     onSubmit={handleSubmit} >
                         <p className="">
                             <label className=" block text-base " htmlFor="nombre">Nombre</label>
                             <input className=" block w-full border-2 border-solid border-gray-300 p-2 bg-white" type="text" id="nombre" name="nombre" />
@@ -161,7 +181,7 @@ export default function Page() {
                             <textarea className=" text-base block w-full border-2 border-solid border-gray-300 p-2 bg-white appearance-none" ype="text" id="mensaje" name="mensaje" rows="10"></textarea>
                         </p>
                         <p className="mt-8">
-                            <input className=" cursor-pointer px-6 py-2 font-bold text-black uppercase text-center inline-block bg-gray-200 hover:bg-gray-300 transition-all ease duration-300" type="submit" id="enviar" name="enviar" value="Enviar" />
+                            <input className=" cursor-pointer px-6 py-2 font-bold text-black uppercase text-center inline-block bg-gray-200 hover:bg-gray-300 transition-all ease duration-300" type="submit" disabled={state.submitting} id="enviar" name="enviar" value="Enviar" />
                         </p>
                     </form>
                 </div>

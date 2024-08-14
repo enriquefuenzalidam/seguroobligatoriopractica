@@ -28,9 +28,10 @@ export function Footer() {
                         8:30 hrs. a 14:00 hrs.<br/>
                         15:00 hrs. a 18:00 hrs.
                     </p>
-                    <p className="mt-6 mb-3">
-                        <Link className=" inline-block px-4 py-2 rounded-full border-solid border-2 border-white border-opacity-50 uppercase text-sm font-bold no-underline" href="/">Únete a nuestro equipo</Link>
-                    </p>
+                    <adress className="mt-6 mb-3">
+                        <h3 className={` uppercase text-lg font-bold `} >Correo electrónico</h3>
+                        <Link href={`mailto:contacto.obligatorio@gmail.com`} className=" inline-block px-4 py-2 text-lg no-underline" >contacto.obligatorio@gmail.com</Link>
+                    </adress>
                 </div>{/*
                 <div className="w-full sm:w-full md:w-1/3 lg:w-1/3 my-6 text-center inline-block align-top">
                     <h3 className="my-3 uppercase text-lg font-bold">Datos de contacto</h3>
