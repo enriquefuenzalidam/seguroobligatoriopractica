@@ -48,7 +48,7 @@ export default function Page() {
             </DynamicBackground>
             <section className=" w-full my-20 sm:my-20 md:my-24 lg:my-28 ">
                 <div className=" max-w-screen-lg w-full mx-auto">
-                    <p data-aos-once="true" data-aos="fade-up" className=" text-gray-600 text-center text-lg sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-6 md:px-8 lg:px-8 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed ">
+                    <p className=" text-gray-600 text-center text-lg sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-6 md:px-8 lg:px-8 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed ">
                         <span className=" uppercase font-bold font-Lato text-black">Seguro Obligatorio</span> es una empresa consolidada con más de 25 años en el mercado, que ofrece seguros obligatorios y seguros generales a particulares y empresas de todo el país. Mantenemos alianzas con las mejores compañías de seguros, lo que nos permite ofrecer el mejor precio a cada uno de nuestros clientes. Nuestros colaboradores brindan la asesoría para que las personas obtengan el Seguro más adecuado a sus necesidades.
                     </p>
                 </div>

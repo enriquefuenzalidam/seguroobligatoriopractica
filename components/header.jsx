@@ -9,14 +9,15 @@ import Link from 'next/link';
 import seguroObligatorio from 'public/images/seguroobligatorio.png';
 import segurosGenerales from 'public/images/segurosgenerales.png';
 import hamburgerMenu from 'public/images/bars.svg';
+import { HOME_URL, CAMPAGNAS, CONTACTO, PRECIO, QUIENESSOMOS, SOCIOS } from 'lib/urls';
 
 const navItems = [
-    { linkText: 'Inicio', href: '/' },
-    { linkText: 'Quiénes somos', href: '/quienessomos' },
-    { linkText: 'Socios', href: '/socios' },
-    { linkText: 'Campañas', href: '/campagnas' },
-    { linkText: 'Precios', href: '/precios' },
-    { linkText: 'Contacto', href: '/contacto' }
+    { linkText: 'Inicio', href: HOME_URL },
+    { linkText: 'Quiénes somos', href: QUIENESSOMOS },
+    { linkText: 'Socios', href: SOCIOS },
+    { linkText: 'Campañas', href: CAMPAGNAS },
+    { linkText: 'Precios', href: PRECIO },
+    { linkText: 'Contacto', href: CONTACTO }
 ];
 
 export function Header() {
