@@ -16,7 +16,7 @@ export const metadata = {
 export default function quienessomos() {
     return (
         <main className="">
-            <section className="mt-16 sm:mt-16 md:mt-16 lg:mt-24 bg-cover bg-center" style={{ backgroundImage: `url(${bannerexperiencia.src})` }}>
+            <section className="mt-16 sm:mt-16 md:mt-16 lg:mt-24 bg-cover bg-center shadow-[rgba(0,0,0,0.6)] shadow-lg" style={{ backgroundImage: `url(${bannerexperiencia.src})` }}>
                 <div className=" bg-black bg-opacity-30 w-full mx-auto py-48">
                     <h2 data-aos-once="true" data-aos="fade-down" className=" max-w-screen-lg mx-auto text-center text-white text-opacity-100 text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase font-Poppins">Quienes Somos</h2>
                     <hr data-aos-once="true" data-aos="flip-left" className=" max-w-screen-lg block w-1/3 sm:w-1/3 md:w-1/4 lg:w-1/5 h-0.5 bg-[#E27905] mt-12 sm:mt-12 md:mt-14 lg:mt-16 mx-auto py-0 border-none " />
@@ -24,7 +24,7 @@ export default function quienessomos() {
             </section>
             <section className=" w-full my-20 sm:my-20 md:my-24 lg:my-28 ">
                 <div className=" max-w-screen-lg w-full mx-auto">
-                    <p data-aos-once="true" data-aos="fade-up" className=" text-left sm:text-left md:text-center lg:text-center text-gray-600 text-lg sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-6 md:px-8 lg:px-8 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed ">
+                    <p className=" text-left sm:text-left md:text-center lg:text-center text-gray-600 text-lg sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-6 md:px-8 lg:px-8 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed ">
                         Somos una empresa de larga trayectoria en el Mercado de Seguros, concentrándonos principalmente en la V Región, otorgando un excelente servicio en atención al cliente, asesorándolos y contando con un equipo altamente capacitado con el objetivo de que nuestros clientes se sientan seguros al momento de optar por nuestros servicios.
                     </p>
                     <p data-aos-once="true" data-aos="fade-up" className=" text-left sm:text-left md:text-center lg:text-center text-gray-600 text-lg sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-6 md:px-8 lg:px-8 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed mt-4 sm:mt-4 md:mt-8 lg:mt-10 ">

@@ -4,13 +4,12 @@ import { useForm, ValidationError } from '@formspree/react';
 
 import contactofondo from 'public/images/contactofondo.jpg';
 
-
 export default function Quienessomos() {
     const [state, handleSubmit] = useForm("mldrnqzn");
     if (state.succeeded) {
         return (
 
-            <main className=" bg-cover bg-left-top " style={{ backgroundImage: `url(${contactofondo.src})` }}>
+            <main className=" bg-cover bg-left-top shadow-[rgba(0,0,0,0.6)] shadow-lg" style={{ backgroundImage: `url(${contactofondo.src})` }}>
                 <section className="bg-black bg-opacity-30 mt-16 sm:mt-16 md:mt-16 lg:mt-24">
                     <div className=" w-full mx-auto pt-48 pb-20 ">
                         <h2 data-aos-once="true" data-aos="fade-down" className=" max-w-screen-lg mx-auto text-center text-white text-opacity-100 text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase font-Poppins">Contacto</h2>
