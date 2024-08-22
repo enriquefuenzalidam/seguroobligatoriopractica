@@ -27,7 +27,7 @@ export default function quienessomos() {
             <section className=" max-w-screen-lg mx-auto w-full my-20 sm:my-20 md:my-24 lg:my-28 ">
                 <h2 data-aos-once="true" data-aos="fade-down" className=" w-full mx-auto mb-6 text-3xl uppercase font-extrabold text-center">Nuestos Socios</h2>
                 
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-4 md:gap-6 lg:gap-8 my-12">
+                <div className="mx-auto max-w-3xl w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-4 md:gap-6 lg:gap-8 my-12">
 
                     <div className="  mt-32 flex justify-center sm:justify-center md:justify-end lg:justify-end">
                         <div className=" relative h-full text-center border-solid border-2 border-neutral-100 rounded-lg max-w-96 py-8 shadow-lg shadow-neutral-500">
@@ -36,7 +36,7 @@ export default function quienessomos() {
                             <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                                 Somos una Corporación de derecho privado, sin fines de lucro, que desde 1919 mantiene un lugar destacado en la industria aseguradora de vida en el país.</p>
                             <p className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href="https://core.mutualdeseguros.cl/soap_ms/pago.php" >Compra aquí</Link>
+                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href=" https://core.mutualdeseguros.cl/soap_ms/pago.php?tipodeventa=10" >Compra aquí</Link>
                             </p>
                         </div>
                     </div>
@@ -48,19 +48,7 @@ export default function quienessomos() {
                             <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                                 BCI Seguros, es una empresa para servir a personas y PYMES, basada en la innovación, calidad, excelencia, comprometidos y eficientes de Chile.</p>
                             <p className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href="https://core.mutualdeseguros.cl/soap_ms/pago.php" >Compra aquí</Link>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="  mt-32 flex justify-center sm:justify-center md:justify-start lg:justify-start">
-                        <div data-aos-once="true" data-aos="fade-down" className=" h-full text-center border-solid border-2 border-neutral-100 rounded-lg max-w-96 py-8 shadow-lg shadow-neutral-500">
-                            <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><img className="mx-auto" src={aliansahdiseguros.src} alt=""/></p>
-                            <h3 className=" font-bold text-lg sm:text-lg md:text-xl lg:text-xl px-6 uppercase font-Poppins m-3 sm:m-3 md:m-6 lg:m-6">HDI Seguros</h3>
-                            <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
-                            Cotiza y contrata tu Seguro Automotriz, Vida, Hogar o Salud aquí. En Seguros HDI disponemos del mejor servicio y las mejores coberturas de seguros en Chile.</p>
-                            <p className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href="https://core.mutualdeseguros.cl/soap_ms/pago.php" >Compra aquí</Link>
+                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href="https://soapweb.bciseguros.cl/web/DatosVehiculo.aspx?Convenios=278884001FEA1CB684EE30C09C81B974" >Compra aquí</Link>
                             </p>
                         </div>
                     </div>
