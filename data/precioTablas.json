@@ -54,9 +54,10 @@
                 "nombre": "images/preciosBCISeguros.jpg",
                 "compra": "https://soapweb.bciseguros.cl/web/DatosVehiculo?Convenios=278884001FEA1CB684EE30C09C81B974",
                 "precios": [
-                    { "vehiculoTipo": "Camión y tracto" , "precio": 32000 },
-                    { "vehiculoTipo": "Remolque y Semi remolque" , "precio": 14000 },
-                    { "vehiculoTipo": "Maquina industrial" , "precio": 18000 }
+                    { "vehiculoTipo": "Camión y tracto" , "precio": 25000 },
+                    { "vehiculoTipo": "Remolque y Semi remolque y Rampla" , "precio": 8500 },
+                    { "vehiculoTipo": "Maquinaria industrial" , "precio": 11000 },
+                    { "vehiculoTipo": "Maquinaria agrícola" , "precio": 11000 }
                 ]
             }
         ]

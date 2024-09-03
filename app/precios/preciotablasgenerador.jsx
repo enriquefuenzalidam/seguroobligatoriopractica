@@ -11,13 +11,13 @@ const Preciotablasgenerador = ({ precioTablas }) => {
             {tabla.seguros.map((seguro, seguroIndex) => (
               <div data-aos-once="true" data-aos="fade-up" key={seguroIndex} className={` flex flex-col h-full w-full max-w-96 mx-auto border-solid border-2 border-neutral-100 rounded-md py-6 shadow-lg shadow-neutral-500 `}>
                 <h4 className=" w-full aspect-h-1 aspect-w-4"><img className="mx-auto w-auto h-4/5 object-center" src={seguro.nombre} alt="preciosBCISeguros" /></h4>
-                <dl className=" w-full grid grid-cols-8 py-6 px-8">
-                  <dt className="inline-block col-span-5 py-2 text-[#E27905] font-extrabold text-left text-lg">Tipo de vehículos</dt>
-                  <dt className="inline-block col-span-3 py-2 text-[#E27905] font-extrabold text-left text-lg">Precio</dt>
+                <dl className=" w-full grid grid-cols-8 px-4 py-6 lg:px-6">
+                  <dt className="inline-block col-span-6 py-2 text-[#E27905] font-extrabold text-left text-lg">Tipo de vehículos</dt>
+                  <dt className="inline-block col-span-2 py-2 text-[#E27905] font-extrabold text-left text-lg">Precio</dt>
                   {seguro.precios.map((precio, precioIndex) => (
                     <React.Fragment key={precioIndex}>
-                      <dt className="inline-block col-span-5 py-2 text-gray-600 text-left text-md">{precio.vehiculoTipo}</dt>
-                      <dd className="inline-block col-span-3 py-2 text-gray-600 text-left text-md">$ {precio.precio}</dd>
+                      <dt className="inline-block col-span-6 py-2 pr-2 text-gray-600 text-left text-md border-t-2 border-dotted border-black border-opacity-10">{precio.vehiculoTipo}</dt>
+                      <dd className="inline-block col-span-2 py-2 text-gray-600 text-left text-md border-t-2 border-dotted border-black border-opacity-10">$ {precio.precio}</dd>
                     </React.Fragment>
                   ))}
                 </dl>
