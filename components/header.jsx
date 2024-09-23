@@ -57,7 +57,7 @@ export function Header() {
                     </Link>
                 </p>
             {!!navItems?.length && (
-                <ul data-aos="fade-left" className=" w-full h-full hidden sm:hidden md:hidden lg:inline-flex flex-row items-center justify-center gap-4 text-black  ">
+                <ul data-aos="fade-up" className=" w-full h-full hidden sm:hidden md:hidden lg:inline-flex flex-row items-center justify-center gap-4 text-black  ">
                     {navItems.map((item, index) => (
                     <li key={index} className=" inline-block ">
                         <Link href={item.href} className={`inline-block no-underline uppercase font-bold text-md `} >

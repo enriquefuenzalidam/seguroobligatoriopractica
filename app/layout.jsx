@@ -12,9 +12,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" data-theme="lofi">
+        <html lang="es">
             <head>
-                <link rel="icon" href="/favicon.svg" sizes="any" />
             </head>
             <body className="antialiased text-black bg-white font-Lato ">
                         <Header />

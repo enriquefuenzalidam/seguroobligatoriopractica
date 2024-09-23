@@ -33,7 +33,7 @@ export default function quienessomos() {
                         <div data-aos-once="true" data-aos="fade-down" className=" relative h-full text-center border-solid border-2 border-neutral-100 rounded-lg max-w-96 py-8 shadow-lg shadow-neutral-500">
                             <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><img className="mx-auto" src={aliansamutualdesegurosdechile.src} alt=""/></p>
                             <h3 className=" font-bold text-lg sm:text-lg md:text-xl lg:text-xl px-6 uppercase font-Poppins  m-3 sm:m-3 md:m-6 lg:m-6">Mutual de Seguros</h3>
-                            <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
+                            <p className="text-justify indent-5 hyphens-auto  font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                                 Somos una Corporación de derecho privado, sin fines de lucro, que desde 1919 mantiene un lugar destacado en la industria aseguradora de vida en el país.</p>
                             <p className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-1/2">
                                 <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href=" https://core.mutualdeseguros.cl/soap_ms/pago.php?tipodeventa=10" >Compra aquí</Link>
@@ -45,7 +45,7 @@ export default function quienessomos() {
                         <div data-aos-once="true" data-aos="fade-down" className=" h-full text-center border-solid border-2 border-neutral-100 rounded-lg max-w-96 py-8 shadow-lg shadow-neutral-500">
                             <p data-aos-once="true" data-aos="flip-right" className="-mt-32"><img className="mx-auto" src={aliansabciseguros.src} alt=""/></p>
                             <h3 className=" font-bold text-lg sm:text-lg md:text-xl lg:text-xl px-6 uppercase font-Poppins m-3 sm:m-3 md:m-6 lg:m-6">BCI Seguros</h3>
-                            <p className=" font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
+                            <p className="text-justify indent-5 hyphens-auto  font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                                 BCI Seguros, es una empresa para servir a personas y PYMES, basada en la innovación, calidad, excelencia, comprometidos y eficientes de Chile.</p>
                             <p className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-1/2">
                                 <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href="https://soapweb.bciseguros.cl/web/DatosVehiculo.aspx?Convenios=278884001FEA1CB684EE30C09C81B974" >Compra aquí</Link>
@@ -59,11 +59,11 @@ export default function quienessomos() {
             <section className=" max-w-screen-lg mx-auto my-24 sm:my-24 md:my-24 lg:my-28 ">
                 <ImageSlider/>
                 <div className=" w-11/12 sm:w-11/12 md:w-2/3 lg:w-2/3 bg-[#F68F2A] pt-20 sm:pt-20 pb-12 sm:pb-12 md:py-12 lg:py-12 mx-auto sm:mx-auto md:mx-8 lg:mx-8">
-                    <div data-aos-once="true" data-aos="fade-right" className=" mx-6 sm:mx-6 md:ml-6 lg:ml-6 text-white ">
+                    <div data-aos-once="true" data-aos="fade-down" className=" mx-6 sm:mx-6 md:ml-6 lg:ml-6 text-white ">
                         <h2 className="  mb-4 text-xl sm:text-xl md:text-2xl lg:text-2xl uppercase font-extrabold">¿Sabía que…</h2>
-                        <p className=" mb-4 text-lg sm:text-lg md:text-lg lg:text-xl leading-normal ">En el año 2021, según autoridades ha habido un incremento sustancial en accidentes automovilísticos.</p>
-                        <p className=" mb-4 text-lg sm:text-lg md:text-lg lg:text-xl leading-normal ">Según el balance 2021 de Carabineros, hubo 79.520 incidentes viales a lo largo del país que provocaron la muerte de 1687 personas, el peor registro de decesos en 13 años.</p>
-                        <p className=" text-lg sm:text-lg md:text-lg lg:text-xl leading-normal ">Fuente: <Link className="underline" href="https://www.emol.com/noticias/Nacional/2022/01/09/1043189/aumento-accidentes-viales-chile-2021.html"><strong>emol.com | <em>Aumento en accidentes viales en 2021 preocupa a las autoridades ¿Cuáles son sus posibles causas y soluciones?</em></strong></Link></p>
+                        <p className=" mb-4 text-lg sm:text-lg md:text-lg lg:text-xl leading-normal text-justify indent-5 hyphens-auto ">En el año 2021, según autoridades ha habido un incremento sustancial en accidentes automovilísticos.</p>
+                        <p className=" mb-4 text-lg sm:text-lg md:text-lg lg:text-xl leading-normal text-justify indent-5 hyphens-auto ">Según el balance 2021 de Carabineros, hubo 79.520 incidentes viales a lo largo del país que provocaron la muerte de 1687 personas, el peor registro de decesos en 13 años.</p>
+                        <p className=" text-lg sm:text-lg md:text-lg lg:text-xl leading-normal text-justify indent-5 hyphens-auto ">Fuente: <Link className="underline" href="https://www.emol.com/noticias/Nacional/2022/01/09/1043189/aumento-accidentes-viales-chile-2021.html"><strong>emol.com | <em>Aumento en accidentes viales en 2021 preocupa a las autoridades ¿Cuáles son sus posibles causas y soluciones?</em></strong></Link></p>
                     </div>
                 </div>
             </section>
