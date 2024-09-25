@@ -136,7 +136,7 @@ export default function Page() {
                             </ul>
                         </div>
                     </div>
-                    <div data-aos-once="true" data-aos="fade-left" className="flex shadow-lg shadow-neutral-500 rounded-md border-2 border-solid border-black border-opacity-5  max-w-96 mx-auto">
+                    <div data-aos-once="true" data-aos="fade-up" className="flex shadow-lg shadow-neutral-500 rounded-md border-2 border-solid border-black border-opacity-5  max-w-96 mx-auto">
                         <div className="uppercase text-center h-full w-full p-4 sm:p-4 md:p-3 lg:p-6">
                             <p><img src={campagnasseptiembre.src} alt="Campagna Septiembre"/></p>
                             <h3 className="mt-6 mb-3 font-bold text-black text-xl font-Poppins">Septiembre</h3>
