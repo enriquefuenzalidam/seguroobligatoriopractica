@@ -57,7 +57,7 @@ export default function Page() {
                 <h2 data-aos-once="true" data-aos="fade-down" className=" text-center text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-Poppins font-light px-6 sm:px-6 md:px-8 lg:px-8 py-0">
                     Generando alianza con empresas reconocidas en el mercado</h2>
                 <hr data-aos-once="true" data-aos="flip-left" className=" block w-1/2 sm:w-1/2 md:w-sm lg:w-sm h-0.5 bg-[#E27905] border-none my-12 sm:my-12 md:my-14 lg:my-16 mx-auto py-0" />
-                <p data-aos-once="true" data-aos="fade-up" className=" text-gray-600 text-justify indent-5 hyphens-auto  text-center text-lg sm:text-lg md:text-xl lg:text-2xl px-6 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed ">
+                <p data-aos-once="true" data-aos="fade-up" className=" text-gray-600 text-justify indent-5 hyphens-auto text-lg sm:text-lg md:text-xl lg:text-2xl px-6 leading-normal sm:leading-normal md:leading-relaxed lg:leading-relaxed ">
                     Con el fin de ofrecerles a nuestros clientes seguridad y confianza, ofrecemos diversas alternativas de aseguradoras reconocidas en el mercado, para que nuestros clientes tengan acceso a variedad de precios y servicios.</p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-4 md:gap-6 lg:gap-8 my-12">
