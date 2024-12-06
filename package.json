@@ -23,7 +23,8 @@
         "react-transition-group": "^4.4.5",
         "sharp": "^0.33.5",
         "styled-components": "^6.1.12",
-        "unique-names-generator": "^4.7.1"
+        "unique-names-generator": "^4.7.1",
+        "webpack": "^5.97.1"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.18",
