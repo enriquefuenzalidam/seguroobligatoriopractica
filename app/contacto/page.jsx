@@ -43,7 +43,7 @@ export default function Quienessomos() {
             */}
             <section className="bg-black bg-opacity-30 pb-0 sm:pb-0 md:pb-12 lg:pb-12 w-full">
                     <form data-aos="fade-up" data-aos-once="true" className={` py-8 mx-auto w-full max-w-3xl bg-[#b79a76] p-4 bg-opacity-70 md:rounded-xl md:shadow-lg md:shadow-black lg:rounded-xl lg:shadow-lg lg:shadow-black `}
-                    accept-charset="utf-8" action="https://formspree.io/f/mldrnqzn" method="post"
+                    acceptCharset="utf-8" action="https://formspree.io/f/mldrnqzn" method="post"
                      > {/* onSubmit={handleSubmit} */}
                         <p className="">
                             <label className=" block text-base font-bold" htmlFor="nombre">Nombre</label>

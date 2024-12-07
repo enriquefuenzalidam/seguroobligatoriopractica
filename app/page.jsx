@@ -150,7 +150,7 @@ export default function Page() {
                     <p data-aos-once="true" data-aos="fade-up" className=" w-full mx-auto text-white max-w-3xl mb-6 text-opacity-80 text-center text-lg sm:text-lg md:text-xl lg:text-2xl px-6 leading-normal ">Necesitas cotizar tu Seguro Obligatorio. Déjanos tu mensaje y uno de nuestros representantes te contactará a la brevedad.</p>
                     <form data-aos-once="true" data-aos="fade-up"
                     className={` py-8 mx-auto w-full max-w-3xl bg-white bg-opacity-70 p-4 rounded-xl shadow-lg shadow-black `}
-                    accept-charset="utf-8" action="https://formspree.io/f/mldrnqzn" method="post"
+                    acceptCharset="utf-8" action="https://formspree.io/f/mldrnqzn" method="post"
                     > {/* onSubmit={handleSubmit} */}
 
                         <fieldset>
