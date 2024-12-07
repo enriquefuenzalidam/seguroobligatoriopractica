@@ -1,10 +1,11 @@
 "use client";
 import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+// import { useForm, ValidationError } from '@formspree/react';
 
-import contactofondo from 'public/images/contactofondo.jpg';
+import contactofondo from '/public/images/contactofondo.jpg';
 
 export default function Quienessomos() {
+    /*
     const [state, handleSubmit] = useForm("mldrnqzn");
     if (state.succeeded) {
         return (
@@ -24,7 +25,7 @@ export default function Quienessomos() {
 
             </main>
         );
-    }
+    } */
     return (
         <main className=" bg-cover bg-left-top " style={{ backgroundImage: `url(${contactofondo.src})` }}>
             <section className="bg-black bg-opacity-30 mt-16 sm:mt-16 md:mt-16 lg:mt-24">
@@ -42,7 +43,7 @@ export default function Quienessomos() {
             */}
             <section className="bg-black bg-opacity-30 pb-0 sm:pb-0 md:pb-12 lg:pb-12 w-full">
                     <form data-aos="fade-up" data-aos-once="true" className="py-8 mx-auto w-full max-w-3xl bg-[#b79a76] p-4 bg-opacity-70 md:rounded-xl md:shadow-lg md:shadow-black lg:rounded-xl lg:shadow-lg lg:shadow-black"
-                    onSubmit={handleSubmit} >
+                     > {/* onSubmit={handleSubmit} */}
                         <p className="">
                             <label className=" block text-base font-bold" htmlFor="nombre">Nombre</label>
                             <input className=" block w-full border-2 border-solid border-gray-300 p-2 bg-white" type="text" id="nombre" name="nombre" />
@@ -74,7 +75,8 @@ export default function Quienessomos() {
                             <textarea className=" text-base block w-full border-2 border-solid border-gray-300 p-2 bg-white bg-opacity-70 appearance-none" ype="text" id="mensaje" name="mensaje" rows="10"></textarea>
                         </p>
                         <p className="mt-8">
-                            <input className=" cursor-pointer px-6 py-2 font-bold text-black uppercase text-center inline-block bg-gray-200 hover:bg-gray-300 transition-all ease duration-300" type="submit" disabled={state.submitting} id="enviar" name="enviar" value="Enviar" />
+                            <input className=" cursor-pointer px-6 py-2 font-bold text-black uppercase text-center inline-block bg-gray-200 hover:bg-gray-300 transition-all ease duration-300" type="submit" id="enviar" name="enviar" value="Enviar" 
+                            /> {/* disabled={state.submitting} */}
                         </p>
                     </form>
             </section>

@@ -6,10 +6,10 @@ import 'aos/dist/aos.css';
 
 import Link from 'next/link';
 
-import seguroObligatorio from 'public/images/seguroobligatorio.png';
-import segurosGenerales from 'public/images/segurosgenerales.png';
-import hamburgerMenu from 'public/images/bars.svg';
-import { HOME_URL, QUIENESSOMOS, SOCIOS, CAMPAGNAS, PRECIO, CONTACTO, SEGUROSGENERALES } from 'lib/urls';
+import seguroObligatorio from '/public/images/seguroobligatorio.png';
+import segurosGenerales from '/public/images/segurosgenerales.png';
+import hamburgerMenu from '/public/images/bars.svg';
+import { HOME_URL, QUIENESSOMOS, SOCIOS, CAMPAGNAS, PRECIO, CONTACTO, SEGUROSGENERALES } from  '@/lib/urls';
 
 const navItems = [
     { linkText: 'Inicio', href: HOME_URL },

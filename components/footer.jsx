@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
-import seguroObligatorioBlanco from 'public/images/seguroobligatorio_blanco.png';
-import instagramLogo from 'public/images/instagram.svg';
-import facebookLogo from 'public/images/facebook.svg';
-import phoneIcon from 'public/images/phone.svg';
-import locationDotIcon from 'public/images/location-dot.svg';
-import envelopeIcon from 'public/images/envelope.svg';
+import seguroObligatorioBlanco from '/public/images/seguroobligatorio_blanco.png';
+import instagramLogo from '/public/images/instagram.svg';
+import facebookLogo from '/public/images/facebook.svg';
+import phoneIcon from '/public/images/phone.svg';
+import locationDotIcon from '/public/images/location-dot.svg';
+import envelopeIcon from '/public/images/envelope.svg';
 
 export function Footer() {
     return (

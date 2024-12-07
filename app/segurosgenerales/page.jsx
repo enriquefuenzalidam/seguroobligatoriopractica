@@ -1,10 +1,11 @@
 "use client";
 import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+// import { useForm, ValidationError } from '@formspree/react';
 
 
 
 export default function Segurosgenerales() {
+    /*
     const [state, handleSubmit] = useForm("mldrnqzn");
     if (state.succeeded) {
         return (
@@ -22,7 +23,7 @@ export default function Segurosgenerales() {
                 </section>
             </main>
         );
-    }
+    } */
     return (
         <main className=" bg-white">
             <section className="mt-16 sm:mt-16 md:mt-16 lg:mt-24 bg-cover bg-center " >
@@ -40,7 +41,7 @@ export default function Segurosgenerales() {
             */}
             <section className=" pb-0 sm:pb-0 md:pb-28 lg:pb-32 w-full bg-white">
                 <form data-aos="fade-up" data-aos-once="true" className="py-8 mx-auto w-full max-w-3xl p-4 bg-slate-300 bg-opacity-70 md:rounded-xl md:shadow-lg md:shadow-gray-700 lg:rounded-xl lg:shadow-lg lg:shadow-gray-700"
-                    onSubmit={handleSubmit} >
+                    > {/* onSubmit={handleSubmit} */}
                     <p className="mt-8">
                         <label className=" block text-base font-bold" htmlFor="consultaTipo">Tipo de seguro:</label>
                         <select className=" block w-full border-2 border-solid border-gray-300 p-2 bg-white bg-opacity-70 appearance-none bg-[url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9IiNiYmIiPjxwYXRoIGQ9Ik02IDlsNiA2IDYtNiIvPjwvc3ZnPg==)] bg-no-repeat bg-right " id="consultaTipo" name="consultaTipo" >
@@ -97,7 +98,8 @@ export default function Segurosgenerales() {
                         <input className=" block w-full border-2 border-solid border-gray-300 p-2 bg-white bg-opacity-70" type="number" id="vehiculoagno" name="vehiculoagno" />
                     </p>
                     <p className="mt-8">
-                        <input className=" cursor-pointer px-6 py-2 font-bold text-white text-opacity-40 hover:text-opacity-100 uppercase text-center inline-block bg-gray-500 hover:bg-gray-800 transition-all ease duration-300" type="submit" disabled={state.submitting} id="enviar" name="enviar" value="Enviar" />
+                        <input className=" cursor-pointer px-6 py-2 font-bold text-white text-opacity-40 hover:text-opacity-100 uppercase text-center inline-block bg-gray-500 hover:bg-gray-800 transition-all ease duration-300" type="submit" id="enviar" name="enviar" value="Enviar"
+                        /> {/* disabled={state.submitting} */}
                     </p>
                 </form>
             </section>

@@ -1,17 +1,16 @@
 
 import Link from 'next/link';
 
-import socios from 'public/images/socios.jpg';
-import aliansabciseguros from 'public/images/aliansabciseguros.jpg';
-import aliansahdiseguros from 'public/images/aliansahdiseguros.png';
-import aliansamutualdesegurosdechile from 'public/images/aliansamutualdesegurosdechile.png';
+import socios from '/public/images/socios.jpg';
+import aliansabciseguros from '/public/images/aliansabciseguros.jpg';
+import aliansahdiseguros from '/public/images/aliansahdiseguros.png';
+import aliansamutualdesegurosdechile from '/public/images/aliansamutualdesegurosdechile.png';
 
-import ImageSlider from './imageSlider';
+import NuevoImagenesDeslizador from './NuevoImagenesDeslizador';
 
 export const metadata = {
     title: 'Socios'
 }
-  
 
 export default function quienessomos() {
     return (
@@ -36,7 +35,7 @@ export default function quienessomos() {
                             <p className="text-justify indent-5 hyphens-auto  font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                                 Somos una Corporación de derecho privado, sin fines de lucro, que desde 1919 mantiene un lugar destacado en la industria aseguradora de vida en el país.</p>
                             <p className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href=" https://core.mutualdeseguros.cl/soap_ms/pago.php?tipodeventa=10" >Compra aquí</Link>
+                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md transition-all ease-in-out duration-700" href=" https://core.mutualdeseguros.cl/soap_ms/pago.php?tipodeventa=10" >Compra aquí</Link>
                             </p>
                         </div>
                     </div>
@@ -48,7 +47,7 @@ export default function quienessomos() {
                             <p className="text-justify indent-5 hyphens-auto  font-normal text-sm sm:text-md md:text-lg lg:text-lg px-4 sm:px-4 md:px-6 lg:px-8">
                                 BCI Seguros, es una empresa para servir a personas y PYMES, basada en la innovación, calidad, excelencia, comprometidos y eficientes de Chile.</p>
                             <p className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md" href="https://soapweb.bciseguros.cl/web/DatosVehiculo.aspx?Convenios=278884001FEA1CB684EE30C09C81B974" >Compra aquí</Link>
+                                <Link className="shadow-md shadow-neutral-500 text-sm font-semibold inline-block mx-auto uppercase text-white bg-sky-700 hover:bg-sky-600 px-6 py-3 rounded-md transition-all ease-in-out duration-700" href="https://soapweb.bciseguros.cl/web/DatosVehiculo.aspx?Convenios=278884001FEA1CB684EE30C09C81B974" >Compra aquí</Link>
                             </p>
                         </div>
                     </div>
@@ -57,7 +56,7 @@ export default function quienessomos() {
 
             </section>
             <section className=" max-w-screen-lg mx-auto my-24 sm:my-24 md:my-24 lg:my-28 ">
-                <ImageSlider/>
+                <NuevoImagenesDeslizador/>
                 <div className=" w-11/12 sm:w-11/12 md:w-2/3 lg:w-2/3 bg-[#F68F2A] pt-20 sm:pt-20 pb-12 sm:pb-12 md:py-12 lg:py-12 mx-auto sm:mx-auto md:mx-8 lg:mx-8">
                     <div data-aos-once="true" data-aos="fade-down" className=" mx-6 sm:mx-6 md:ml-6 lg:ml-6 text-white ">
                         <h2 className="  mb-4 text-xl sm:text-xl md:text-2xl lg:text-2xl uppercase font-extrabold">¿Sabía que…</h2>

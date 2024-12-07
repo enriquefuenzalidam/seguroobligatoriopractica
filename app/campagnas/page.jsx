@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 
 
-import campagnasCover from 'public/images/campagnasCover.jpg';
-import sociossabiasqueCuatro from 'public/images/sociossabiasqueCuatro.jpg';
-import coverBgImageNueve from 'public/images/coverBgImageNueve.jpg';
-import campagnaSeptiembre from 'public/images/campagnaSeptiembre.jpg';
+import campagnasCover from '/public/images/campagnasCover.jpg';
+import sociossabiasqueCuatro from '/public/images/sociossabiasqueCuatro.jpg';
+import coverBgImageNueve from '/public/images/coverBgImageNueve.jpg';
+import campagnaSeptiembre from '/public/images/campagnaSeptiembre.jpg';
 
 
 export const metadata = {

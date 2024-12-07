@@ -1,12 +1,11 @@
 
-import Link from 'next/link';
 
 
 
-import bannerexperiencia from 'public/images/bannerexperiencia.jpg';
-import misionvision from 'public/images/misionvision.png';
+import bannerexperiencia from '/public/images/bannerexperiencia.jpg';
+import misionvision from '/public/images/misionvision.png';
 
-import ImageSlider from './imageSlider';
+import NuevoImagenesDeslizador from './NuevoImagenesDeslizador';
 
 export const metadata = {
     title: 'Quiénes Somos'
@@ -49,7 +48,7 @@ export default function quienessomos() {
             </section>
             
             <section className=" max-w-screen-lg mx-auto my-24 sm:my-24 md:my-24 lg:my-28 ">
-                <ImageSlider/>
+                <NuevoImagenesDeslizador/>
                 <div className=" w-11/12 sm:w-11/12 md:w-2/3 lg:w-2/3 bg-[#F68F2A] pt-20 sm:pt-20 pb-12 sm:pb-12 md:py-12 lg:py-12 mx-auto sm:mx-auto md:mx-8 lg:mx-8">
                     <div data-aos-once="true" data-aos="fade-down" className=" mx-6 sm:mx-6 md:ml-6 lg:ml-6 text-white ">
                         <h2 className="  mb-4 text-xl sm:text-xl md:text-2xl lg:text-2xl uppercase font-extrabold">¿Sabía que…</h2>
@@ -61,7 +60,7 @@ export default function quienessomos() {
             </section>
             <section className=" max-w-screen-lg mx-auto my-24 sm:my-24 md:my-24 lg:my-28 ">
                 <div className="w-full aspect-w-16 aspect-h-9">
-                <iframe className="w-full h-full" src="https://www.youtube.com/embed/uN1M-X-PAeA?si=ea780JsDMworhivB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className="w-full h-full" src="https://www.youtube.com/embed/uN1M-X-PAeA?si=ea780JsDMworhivB" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
             </section>
 

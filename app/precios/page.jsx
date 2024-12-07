@@ -1,10 +1,10 @@
 
 import Preciotablasgenerador from './preciotablasgenerador';
 
-import preciosCover from 'public/images/preciosCover.jpg';
-import preciosIcon from 'public/images/preciosIcon.svg';
+import preciosCover from '/public/images/preciosCover.jpg';
+import preciosIcon from '/public/images/preciosIcon.svg';
 
-import precioTablas from 'data/precioTablas.json';
+import precioTablas from '../../data/precioTablas.json';
 
 export const metadata = {
     title: 'Precios'
