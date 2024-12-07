@@ -40,7 +40,8 @@ export default function Segurosgenerales() {
             </section>
             */}
             <section className=" pb-0 sm:pb-0 md:pb-28 lg:pb-32 w-full bg-white">
-                <form data-aos="fade-up" data-aos-once="true" className="py-8 mx-auto w-full max-w-3xl p-4 bg-slate-300 bg-opacity-70 md:rounded-xl md:shadow-lg md:shadow-gray-700 lg:rounded-xl lg:shadow-lg lg:shadow-gray-700"
+                <form data-aos="fade-up" data-aos-once="true" className={` py-8 mx-auto w-full max-w-3xl p-4 bg-slate-300 bg-opacity-70 md:rounded-xl md:shadow-lg md:shadow-gray-700 lg:rounded-xl lg:shadow-lg lg:shadow-gray-700 `}
+                    accept-charset="utf-8" action="https://formspree.io/f/mldrnqzn" method="post"
                     > {/* onSubmit={handleSubmit} */}
                     <p className="mt-8">
                         <label className=" block text-base font-bold" htmlFor="consultaTipo">Tipo de seguro:</label>
